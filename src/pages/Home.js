@@ -1,12 +1,12 @@
 // /src/pages/Home.js
-import React from 'react'
+import React from "react";
 
-import App from '../containers/App'
+import App from "../containers/App";
 
 const Home = () => (
-    <App>
-        <h1>Home</h1>
-    </App>
-)
+  <App>
+    <h1>Home</h1>
+  </App>
+);
 
-export default Home
+export default Home;
