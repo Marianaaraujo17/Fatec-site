@@ -97,40 +97,40 @@ const Menu = () => {
           <a href="#">PROJETOS</a>
           <ul>
             <li>
-              <a href="#"> Aerodesign </a>
+              <a href="/aerodesign"> Aerodesign </a>
             </li>
             <li>
-              <a href="#"> Agência Inova Paula Souza </a>
+              <a href="/agencia"> Agência Inova Paula Souza </a>
             </li>
             <li>
-              <a href="#"> Aprendizagem por Projetos Integrados </a>
+              <a href="/api"> Aprendizagem por Projetos Integrados </a>
             </li>
             <li>
-              <a href="#"> Baja </a>
+              <a href="/baja"> Baja </a>
             </li>
             <li>
-              <a href="#"> CADI </a>
+              <a href="/cadi"> CADI </a>
             </li>
             <li>
-              <a href="#"> CIMATech </a>
+              <a href="/cimatech"> CIMATech </a>
             </li>
             <li>
-              <a href="#"> Escola de Inovadores </a>
+              <a href="/inovadores"> Escola de Inovadores </a>
             </li>
             <li>
-              <a href="#"> Fatec Business Mentoring </a>
+              <a href="/business"> Fatec Business Mentoring </a>
             </li>
             <li>
-              <a href="#"> HACKaTruck </a>
+              <a href="/hackatruck"> HACKaTruck </a>
             </li>
             <li>
-              <a href="#"> Núcleo de Relações Internacionais </a>
+              <a href="/nucleo"> Núcleo de Relações Internacionais </a>
             </li>
             <li>
-              <a href="#"> Vestec </a>
+              <a href="/vestec"> Vestec </a>
             </li>
             <li>
-              <a href="#"> Workshop de Logística Humanitária </a>
+              <a href="/workshop"> Workshop de Logística Humanitária </a>
             </li>
           </ul>
         </li>
@@ -138,37 +138,37 @@ const Menu = () => {
           <a href="#">ÁREA DO ALUNO</a>
           <ul>
             <li>
-              <a href="#">Calendário Acadêmico</a>
+              <a href="/calendario">Calendário Acadêmico</a>
             </li>
             <li>
-              <a href="#">Email Institucional</a>
+              <a href="/email">Email Institucional</a>
             </li>
             <li>
-              <a href="#">Galeria de Diplomados</a>
+              <a href="/diplomados">Galeria de Diplomados</a>
             </li>
             <li>
-              <a href="#">Horários de Aula</a>
+              <a href="/horarios_aula">Horários de Aula</a>
             </li>
             <li>
-              <a href="#">Horários de ônibus</a>
+              <a href="/horarios_onibus">Horários de ônibus</a>
             </li>
             <li>
-              <a href="#">Monitoria</a>
+              <a href="/monitoria">Monitoria</a>
             </li>
             <li>
-              <a href="#">Moodle</a>
+              <a href="/moodle">Moodle</a>
             </li>
             <li>
-              <a href="#">Normas para TG</a>
+              <a href="/TG">Normas para TG</a>
             </li>
             <li>
-              <a href="#">Passe Escolar</a>
+              <a href="/passe">Passe Escolar</a>
             </li>
             <li>
-              <a href="#">`Portal de Oportunidades</a>
+              <a href="/Portal">`Portal de Oportunidades</a>
             </li>
             <li>
-              <a href="#">Setor de Estágios</a>
+              <a href="/Portal">Setor de Estágios</a>
             </li>
           </ul>
         </li>
@@ -176,16 +176,16 @@ const Menu = () => {
           <a href="#">ACESSAR</a>
           <ul>
             <li>
-              <a href="#">SIGA (Alunos)</a>
+              <a href="https://siga.cps.sp.gov.br/aluno/login.aspx">SIGA (Alunos)</a>
             </li>
             <li>
-              <a href="#">SIGA (Docentes)</a>
+              <a href="https://siga.cps.sp.gov.br/fatec/login.aspx">SIGA (Docentes)</a>
             </li>
             <li>
-              <a href="#">Email</a>
+              <a href="http://www.fatec.sp.gov.br/view/Default.aspx">Email</a>
             </li>
             <li>
-              <a href="#">Teams</a>
+              <a href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=5e3ce6c0-2b1f-4285-8d4b-75ee78787346&redirect_uri=https%3A%2F%2Fteams.microsoft.com%2Fgo&state=eyJpZCI6IjI0NTBmMTRiLTZkZmItNDkwNy1hM2ZlLTFlMzE2NWVhZDRmNCIsInRzIjoxNjM4MzY5MDU4LCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=aca8ee0c-e2cc-4a12-b216-5d215dd1995a&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=1.3.4&client-request-id=cd4761a2-6270-4661-950c-bd374a3f818c&response_mode=fragment&sso_reload=true">Teams</a>
             </li>
           </ul>
         </li>
