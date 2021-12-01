@@ -200,9 +200,10 @@ const Menu = () => {
     <img id="predio" src={predio}/>
     </Col>
     <div id="submenu">
-      <a id="estilo" href="#">VESTIBULAR</a>
-      <a id="estilo" href="#">SECRETARIA</a>
-      <a id="estilo" href="#">ESTÁGIO|VAGAS</a>
+      <a id="estilo" href="/vestibular">VESTIBULAR</a>
+      <a id="estilo" href="/secretaria">SECRETARIA</a>
+      <a id="estilo" href="/portal">ESTÁGIO|VAGAS</a>
+      <a id="estilo" href="/contato">CONTATO</a>
     </div>
     </>
   );

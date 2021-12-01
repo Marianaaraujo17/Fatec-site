@@ -1,10 +1,59 @@
-.app-footer {
-    background: #dcdcdc;
-    padding: .5rem 2rem;
-    text-align: right;
+#rodape{
+    background-color: #D3D9D9;
 }
 
-.app-footer__message {
-    color: #595959;
-    font-family: sans-serif;
+#cps{
+    width: 180px;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+#governo{
+    width: 130px;
+    height: 84px;
+    margin-top: 65px;
+}
+
+#centro{
+    display: flex;
+    justify-content: center;
+}
+
+#texto{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+#palavra{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+#linha{
+    color: black;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: grey;
+}
+
+#nomes{
+    display: flex;
+    justify-content: center;
+    color: grey;
 }

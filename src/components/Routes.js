@@ -51,6 +51,7 @@ import monitoria from "../pages/monitoria";
 import moodle from "../pages/moodle";
 import TG from "../pages/TG";
 import passe from "../pages/passe";
+import contato from "../pages/contato"
 
 
 const Routes = () => (
@@ -104,6 +105,8 @@ const Routes = () => (
     <Route exact path="/moodle" component={moodle} />
     <Route exact path="/TG" component={TG} />
     <Route exact path="/passe" component={passe} />
+
+    <Route exact path="/contato" component={contato} />
   </BrowserRouter>
 );
 
