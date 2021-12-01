@@ -2,11 +2,14 @@
   --cor-fundo: #b20000;
   --cor-hover: rgb(202, 83, 28);
   --cor-primaria: white;
+
 }
 
 .dp-menu ul {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .dp-menu ul {
@@ -59,4 +62,36 @@ ul {
   display: table;
   width: 100%;
   text-align: center;
+}
+
+#centro{
+  display: flex;
+  justify-content: center;
+}
+
+#logo{
+  width: 280px;
+  height: 140px;
+  margin-top: 23px;
+}
+
+#predio{
+  width: 380px;
+  height: 211px;
+  margin-top: -17px;
+}
+
+#submenu{
+  background-color: #005c6e;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+#estilo{
+  color: white;
+  margin-top: 10px;
 }

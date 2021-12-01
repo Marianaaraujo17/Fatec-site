@@ -1,8 +1,12 @@
 import React from "react";
 import "./Menu.css";
+import logo from "../images/logo.png"
+import predio from "../images/predio.png"
+import { Col } from "react-bootstrap";
 
 const Menu = () => {
   return (
+    <>
     <nav class="dp-menu">
       <ul>
         <li>
@@ -191,6 +195,16 @@ const Menu = () => {
         </li>
       </ul>
     </nav>
+    <Col id="centro">
+    <img id="logo" src={logo}/>
+    <img id="predio" src={predio}/>
+    </Col>
+    <div id="submenu">
+      <a id="estilo" href="#">VESTIBULAR</a>
+      <a id="estilo" href="#">SECRETARIA</a>
+      <a id="estilo" href="#">ESTÁGIO|VAGAS</a>
+    </div>
+    </>
   );
 };
 export default Menu;
