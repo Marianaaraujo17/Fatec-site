@@ -51,8 +51,8 @@ import monitoria from "../pages/monitoria";
 import moodle from "../pages/moodle";
 import TG from "../pages/TG";
 import passe from "../pages/passe";
-import contato from "../pages/contato"
-
+import contato from "../pages/contato";
+import Footer from "./footer/Footer";
 
 const Routes = () => (
   <BrowserRouter>
@@ -107,6 +107,8 @@ const Routes = () => (
     <Route exact path="/passe" component={passe} />
 
     <Route exact path="/contato" component={contato} />
+
+    <Route exact path="/footer" component={Footer} />
   </BrowserRouter>
 );
 
