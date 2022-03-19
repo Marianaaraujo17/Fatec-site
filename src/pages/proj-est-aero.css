@@ -1,0 +1,40 @@
+.titulo {
+  font-size: 40px;
+  color: #005c6e;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-family: Noto Sans;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.card-titulo {
+  color: #2bb8c9;
+  font-weight: bold;
+}
+.card-texto {
+  font-family: "Noto Sans";
+  font-size: 23px;
+}
+
+.links {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+.card-link-titulo {
+  font-family: "Lucida Sans";
+  font-weight: bolder;
+}
+.card-link-subtitulo {
+  font-family: "Lucida Sans";
+  font-size: 14;
+  font-weight: lighter;
+}
+
+.card-botao {
+  font-family: "Lucida Sans";
+}
