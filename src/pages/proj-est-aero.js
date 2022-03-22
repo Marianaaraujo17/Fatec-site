@@ -3,6 +3,7 @@ import App from "../containers/App";
 import Footer from "../components/footer";
 import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";
 import "./proj-est-aero.css";
+import ReactYouTube from "../components/youtube/ReactYoutube";
 
 const introducao = [
   {
@@ -95,6 +96,9 @@ const proj_est_aero = () => (
           </CardGroup>
         </Col>
       </Row>
+    </Container>
+    <Container>
+      <ReactYouTube videoId="bAaQiT6ESUs"/><br/>
     </Container>
     <Container style={{ marginBottom: "50px", textAlign: "center" }}>
       <Row xs={1} md={2} className="g-4">

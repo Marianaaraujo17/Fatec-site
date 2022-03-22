@@ -3,6 +3,7 @@ import App from "../containers/App";
 import Footer from "../components/footer";
 import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";
 import "./manufatura.css";
+import ReactYouTube from "../components/youtube/ReactYoutube";
 
 const introducao = [
   {
@@ -88,7 +89,8 @@ const manufatura = () => (
                     <Card.Text
                       style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
                     >
-                      {object.descricao}
+                      {object.descricao}<br/>
+                      <a id="fonte" href="https://fatecsjc-prd.azurewebsites.net/downloads/cursos/ma/2017.11.10_apresentacao_manufatura_avancada.pdf" target="_blank">{object.extra}</a>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -97,6 +99,9 @@ const manufatura = () => (
           </CardGroup>
         </Col>
       </Row>
+    </Container>
+    <Container>
+      <ReactYouTube videoId="oQpdILOtVbc"/><br/>
     </Container>
     <Container style={{ marginBottom: "50px", textAlign: "center" }}>
       <Row xs={1} md={2} className="g-4">

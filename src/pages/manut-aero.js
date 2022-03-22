@@ -3,6 +3,7 @@ import App from "../containers/App";
 import Footer from "../components/footer";
 import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";
 import "./manut-aero.css";
+import ReactYouTube from "../components/youtube/ReactYoutube";
 
 const introducao = [
   {
@@ -94,7 +95,8 @@ const manut_aero = () => (
                     <Card.Text
                       style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
                     >
-                      {object.descricao}
+                      {object.descricao}<br/>
+                      <a id="fonte" href="https://fatecsjc-prd.azurewebsites.net/downloads/cursos/mnt/2021.02.09_apresentacao_manutencao_aero.pdf" target="_blank">{object.extra}</a>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -103,6 +105,9 @@ const manut_aero = () => (
           </CardGroup>
         </Col>
       </Row>
+    </Container>
+    <Container>
+      <ReactYouTube videoId="d1vkNIYDVWA"/><br/>
     </Container>
     <Container style={{ marginBottom: "50px", textAlign: "center" }}>
       <Row xs={1} md={2} className="g-4">

@@ -3,6 +3,7 @@ import App from "../containers/App";
 import Footer from "../components/footer";
 import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";
 import "./logistica.css";
+import ReactYouTube from "../components/youtube/ReactYoutube";
 
 const introducao = [
   {
@@ -97,6 +98,9 @@ const logistica = () => (
           </CardGroup>
         </Col>
       </Row>
+    </Container>
+    <Container>
+      <ReactYouTube videoId="73zQmITJsd0"/><br/>
     </Container>
     <Container style={{ marginBottom: "50px", textAlign: "center" }}>
       <Row xs={1} md={2} className="g-4">

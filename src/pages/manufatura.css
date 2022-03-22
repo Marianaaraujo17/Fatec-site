@@ -38,3 +38,10 @@
 .card-botao {
   font-family: "Lucida Sans";
 }
+
+#fonte{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #005c6e;
+  font-size: 16px;
+}
