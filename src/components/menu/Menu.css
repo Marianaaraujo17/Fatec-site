@@ -95,3 +95,8 @@ ul {
   margin-top: 10px;
   text-decoration: none;
 }
+
+.z-index-master{
+  position: relative;
+  z-index: 10;
+}
