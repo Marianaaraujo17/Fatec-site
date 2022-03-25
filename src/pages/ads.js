@@ -84,9 +84,7 @@ const ads = () => (
                     <Card.Title className="card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
-                    >
+                    <Card.Text className="card-descricao">
                       {object.descricao}
                     </Card.Text>
                   </Card.Body>
@@ -99,7 +97,8 @@ const ads = () => (
     </Container>
 
     <Container>
-      <ReactYouTube videoId="_1qJ5fEUifU"/><br/>
+      <ReactYouTube videoId="_1qJ5fEUifU" />
+      <br />
     </Container>
 
     <Container style={{ marginBottom: "50px", textAlign: "center" }}>

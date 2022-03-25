@@ -86,11 +86,16 @@ const manufatura = () => (
                     <Card.Title className="card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
-                    >
-                      {object.descricao}<br/>
-                      <a id="fonte" href="https://fatecsjc-prd.azurewebsites.net/downloads/cursos/ma/2017.11.10_apresentacao_manufatura_avancada.pdf" target="_blank">{object.extra}</a>
+                    <Card.Text className="card-descricao">
+                      {object.descricao}
+                      <br />
+                      <a
+                        id="fonte"
+                        href="https://fatecsjc-prd.azurewebsites.net/downloads/cursos/ma/2017.11.10_apresentacao_manufatura_avancada.pdf"
+                        target="_blank"
+                      >
+                        {object.extra}
+                      </a>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -101,7 +106,8 @@ const manufatura = () => (
       </Row>
     </Container>
     <Container>
-      <ReactYouTube videoId="oQpdILOtVbc"/><br/>
+      <ReactYouTube videoId="oQpdILOtVbc" />
+      <br />
     </Container>
     <Container style={{ marginBottom: "50px", textAlign: "center" }}>
       <Row xs={1} md={2} className="g-4">

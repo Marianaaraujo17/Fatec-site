@@ -86,9 +86,7 @@ const logistica = () => (
                     <Card.Title className="card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
-                    >
+                    <Card.Text className="card-descricao">
                       {object.descricao}
                     </Card.Text>
                   </Card.Body>
@@ -100,7 +98,8 @@ const logistica = () => (
       </Row>
     </Container>
     <Container>
-      <ReactYouTube videoId="73zQmITJsd0"/><br/>
+      <ReactYouTube videoId="73zQmITJsd0" />
+      <br />
     </Container>
     <Container style={{ marginBottom: "50px", textAlign: "center" }}>
       <Row xs={1} md={2} className="g-4">

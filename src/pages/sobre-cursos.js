@@ -116,7 +116,7 @@ const sobre_cursos = () => (
                 <Card.Text
                   style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
                 >
-                  <p>
+                  <p className="card-descricao">
                     Este{" "}
                     <a
                       className="guia"
@@ -146,6 +146,7 @@ const sobre_cursos = () => (
                   style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
                 >
                   <p
+                    className="card-descricao"
                     style={{
                       fontWeight: "lighter",
                       color: "gray",

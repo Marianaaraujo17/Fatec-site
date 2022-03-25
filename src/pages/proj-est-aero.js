@@ -84,9 +84,7 @@ const proj_est_aero = () => (
                     <Card.Title className="card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
-                    >
+                    <Card.Text className="card-descricao">
                       {object.descricao}
                     </Card.Text>
                   </Card.Body>
@@ -98,7 +96,8 @@ const proj_est_aero = () => (
       </Row>
     </Container>
     <Container>
-      <ReactYouTube videoId="bAaQiT6ESUs"/><br/>
+      <ReactYouTube videoId="bAaQiT6ESUs" />
+      <br />
     </Container>
     <Container style={{ marginBottom: "50px", textAlign: "center" }}>
       <Row xs={1} md={2} className="g-4">

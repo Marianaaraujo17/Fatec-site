@@ -27,3 +27,9 @@
   text-decoration: none;
   font-family: "Noto Sans";
 }
+
+.card-descricao {
+  text-align: justify;
+  font-family: "Noto Sans";
+  font-size: 23px;
+}

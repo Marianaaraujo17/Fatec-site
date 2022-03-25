@@ -1,0 +1,45 @@
+.sobre-titulo {
+  font-size: 40px;
+  color: #005c6e;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+
+.sobre-subtitulo {
+  font-family: Noto Sans;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.sobre-card-titulo {
+  color: #2bb8c9;
+  font-weight: bold;
+}
+.sobre-card-texto {
+  font-family: "Noto Sans";
+  font-size: 23px;
+}
+
+.sobre-card-botao {
+  font-family: "Lucida Sans";
+}
+
+.sobre-card-descricao {
+  text-align: justify;
+  font-family: "Noto Sans";
+  font-size: 23px;
+}
+.sobre-card-descricao-citacao {
+  text-align: justify;
+  font-family: "Noto Sans";
+  font-size: 23px;
+  font-style: italic;
+  font-weight: lighter;
+  color: gray;
+}
+
+.sobre-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: darkblue;
+}
