@@ -26,6 +26,9 @@ const Menu = () => {
                   <a href="/biblioteca">Biblioteca</a>
                 </li>
                 <li>
+                  <a href="/cadi">CADI</a>
+                </li>
+                <li>
                   <a href="/cipa">CIPA</a>
                 </li>
                 <li>
