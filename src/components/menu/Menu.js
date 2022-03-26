@@ -58,12 +58,6 @@ const Menu = () => {
                   <a href="/laboratorios">Laboratórios</a>
                 </li>
                 <li>
-                  <a href="/noticias">Notícias</a>
-                </li>
-                <li>
-                  <a href="/nucleo">Núcleo de Relações Internacionais</a>
-                </li>
-                <li>
                   <a href="/secretaria">Secretaria</a>
                 </li>
               </ul>

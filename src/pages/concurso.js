@@ -43,7 +43,7 @@ const concurso = () => (
             indicados no site ou nas seguintes páginas:{" "}
           </p>
           <p>
-            > Concursos para contratação de docentes e auxiliares de docente do
+            Concursos para contratação de docentes e auxiliares de docente do
             Centro Paula Souza
           </p>
           <a
@@ -53,7 +53,7 @@ const concurso = () => (
           >
             https://urhsistemas.cps.sp.gov.br/dgsdad/default.aspx
           </a>
-          <p>> Concursos públicos do Estado de São Paulo</p>
+          <p> Concursos públicos do Estado de São Paulo</p>
           <a
             id="left"
             target="blank"
@@ -61,7 +61,7 @@ const concurso = () => (
           >
             http://www.concursopublico.sp.gov.br
           </a>
-          <p>> Diário Oficial do Estado de São Paulo</p>
+          <p> Diário Oficial do Estado de São Paulo</p>
           <a id="left" target="blank" href="http://www.imprensaoficial.com.br">
             http://www.imprensaoficial.com.br
           </a>
