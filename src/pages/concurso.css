@@ -1,0 +1,27 @@
+#espaco{
+    margin-bottom: 5%;
+}
+
+.card{
+    padding: 3%;
+    margin-bottom: 5%;
+}
+
+.titulo {
+    font-size: 30px;
+    color: #005c6e;
+    font-family: "Noto Sans";
+    font-weight: bold;
+  }
+
+#subtitulo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#left{
+    margin-left: 5%;
+    margin-bottom: 4%;
+    font-size: 17px;
+    color: red;
+}
