@@ -7,6 +7,7 @@ import Portal from "../pages/Portal";
 import sobre from "../pages/sobre";
 import achados from "../pages/achados-perdidos";
 import biblioteca from "../pages/biblioteca";
+import cadi from "../pages/cadi";
 import cipa from "../pages/CIPA";
 import calendar_event from "../pages/calendario-eventos";
 import concurso from "../pages/concurso";
@@ -34,14 +35,12 @@ import aerodesign from "../pages/aerodesign";
 import inova_paula_souza from "../pages/inova_paula_souza";
 import api from "../pages/api";
 import baja from "../pages/baja";
-import CADI from "../pages/CADI";
 import cimatech from "../pages/cimatech";
 import escola_inovadores from "../pages/escola_inovadores";
 import business_mentoring from "../pages/business_mentoring";
 import hackatruck from "../pages/hackatruck";
 import vestec from "../pages/vestec";
 import workshop from "../pages/workshop";
-
 import calendario from "../pages/calendario";
 import email_institucional from "../pages/email_institucional";
 import diplomados from "../pages/diplomados";
@@ -88,7 +87,7 @@ const Routes = () => (
     <Route exact path="/agencia" component={inova_paula_souza} />
     <Route exact path="/api" component={api} />
     <Route exact path="/baja" component={baja} />
-    <Route exact path="/cadi" component={CADI} />
+    <Route exact path="/cadi" component={cadi} />
     <Route exact path="/cimatech" component={cimatech} />
     <Route exact path="/inovadores" component={escola_inovadores} />
     <Route exact path="/business" component={business_mentoring} />

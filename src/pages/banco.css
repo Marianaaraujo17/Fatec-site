@@ -38,3 +38,9 @@
 .card-botao {
   font-family: "Lucida Sans";
 }
+
+.card-descricao {
+  text-align: justify;
+  font-family: "Noto Sans";
+  font-size: 23px;
+}

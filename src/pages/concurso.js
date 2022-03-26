@@ -1,5 +1,5 @@
 import React from "react";
-
+import Footer from "../components/footer";
 import App from "../containers/App";
 import Footer from "../components/footer";
 import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";

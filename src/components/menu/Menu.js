@@ -26,6 +26,9 @@ const Menu = () => {
                   <a href="/biblioteca">Biblioteca</a>
                 </li>
                 <li>
+                  <a href="/cadi">CADI</a>
+                </li>
+                <li>
                   <a href="/cipa">CIPA</a>
                 </li>
                 <li>
@@ -98,7 +101,12 @@ const Menu = () => {
                   <a href="/sobre_cursos">Sobre os cursos</a>
                 </li>
                 <li>
-                  <a href="/vestibular">Vestibular</a>
+                  <a
+                    href="https://www.vestibularfatec.com.br/home/"
+                    target="_blank"
+                  >
+                    Vestibular
+                  </a>
                 </li>
               </ul>
             </li>

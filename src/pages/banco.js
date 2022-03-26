@@ -84,9 +84,7 @@ const banco = () => (
                     <Card.Title className="card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
-                    >
+                    <Card.Text className="card-descricao">
                       {object.descricao}
                     </Card.Text>
                   </Card.Body>
@@ -98,7 +96,8 @@ const banco = () => (
       </Row>
     </Container>
     <Container>
-      <ReactYouTube videoId="hMWP1R5K288"/><br/>
+      <ReactYouTube videoId="hMWP1R5K288" />
+      <br />
     </Container>
     <Container style={{ marginBottom: "50px", textAlign: "center" }}>
       <Row xs={1} md={2} className="g-4">

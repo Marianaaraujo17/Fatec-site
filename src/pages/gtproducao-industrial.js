@@ -83,9 +83,7 @@ const gtproducao_ind = () => (
                     <Card.Title className="card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
-                    >
+                    <Card.Text className="card-descricao">
                       {object.descricao}
                     </Card.Text>
                   </Card.Body>
