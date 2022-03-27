@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../components/footer";
 import App from "../containers/App";
-import Footer from "../components/footer";
 import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";
 import "./concurso.css";
 
@@ -29,11 +28,11 @@ const concurso = () => (
       <p id="espaco">A contratação de funcionários técnico-administrativos e auxiliares de docente é feita somente através de concurso público. </p>
       <p id="subtitulo">Informações</p>
       <p>Para detalhes sobre a abertura de concursos, o candidato deverá contatar a Unidade de interesse pessoalmente, pelos telefones indicados no site ou nas seguintes páginas: </p>
-      <p>> Concursos para contratação de docentes e auxiliares de docente do Centro Paula Souza</p>
+      <p>- Concursos para contratação de docentes e auxiliares de docente do Centro Paula Souza</p>
       <a id="left" target="blank" href="https://urhsistemas.cps.sp.gov.br/dgsdad/default.aspx">https://urhsistemas.cps.sp.gov.br/dgsdad/default.aspx</a>
-      <p>> Concursos públicos do Estado de São Paulo</p>
+      <p>- Concursos públicos do Estado de São Paulo</p>
       <a id="left" target="blank" href="http://www.concursopublico.sp.gov.br">http://www.concursopublico.sp.gov.br</a>
-      <p>> Diário Oficial do Estado de São Paulo</p>
+      <p>- Diário Oficial do Estado de São Paulo</p>
       <a id="left" target="blank" href="http://www.imprensaoficial.com.br">http://www.imprensaoficial.com.br</a>
       <p id="subtitulo">Deliberações</p>
       <p>Dispõe sobre norma para a realização de Concurso Público para o preenchimento de emprego público permanente de Professor do Ensino Superior das Faculdades de Tecnologia do Centro Estadual de Educação Tecnológica Paula Souza.</p>
