@@ -29,7 +29,7 @@ const cadi = () => (
         </Col>
       </Row>
     </Container>
-    <Container style={{ marginBottom: "50px" }}>
+    <Container style={{ marginBottom: "50px", textAlign: "justify" }}>
       <Row>
         <Col md={{ span: 12 }}>
           <p>

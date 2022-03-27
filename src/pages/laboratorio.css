@@ -1,0 +1,24 @@
+.titulo {
+  font-size: 40px;
+  color: #005c6e;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+
+.lab-titulo {
+  font-family: Cambria;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.lab-texto {
+  font-family: Cambria;
+  font-size: 22px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Cambria;
+  color: darkblue;
+}

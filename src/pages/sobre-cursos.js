@@ -90,7 +90,7 @@ const sobre_cursos = () => (
       </Row>
     </Container>
 
-    <Container id="resumo" style={{ marginBottom: "50px" }}>
+    <Container style={{ marginBottom: "50px" }}>
       <Row>
         <Col md={{ span: 12 }}>
           <CardGroup>
