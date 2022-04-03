@@ -53,6 +53,15 @@ import passe from "../pages/passe";
 import contato from "../pages/contato";
 import Footer from "./footer/Footer";
 
+import doc_ads from "../pages/docentes/docentes-ads";
+import doc_banco from "../pages/docentes/docentes-banco";
+import doc_dsm from "../pages/docentes/docentes-dsm";
+import doc_logistica from "../pages/docentes/docentes-logistica";
+import doc_pea from "../pages/docentes/docentes-pea";
+import doc_gestao from "../pages/docentes/docentes-gestao";
+import doc_manufatura from "../pages/docentes/docentes-manufatura";
+import doc_manut from "../pages/docentes/docentes-manut";
+
 const Routes = () => (
   <BrowserRouter>
     <Route exact path="/" component={Home} />
@@ -106,6 +115,15 @@ const Routes = () => (
     <Route exact path="/passe" component={passe} />
 
     <Route exact path="/contato" component={contato} />
+
+    <Route exact path="/docentes-ads" component={doc_ads} />
+    <Route exact path="/docentes-banco" component={doc_banco} />
+    <Route exact path="/docentes-dsm" component={doc_dsm} />
+    <Route exact path="/docentes-pea" component={doc_pea} />
+    <Route exact path="/docentes-logistica" component={doc_logistica} />
+    <Route exact path="/docentes-manutencao" component={doc_manut} />
+    <Route exact path="/docentes-manufatura" component={doc_manufatura} />
+    <Route exact path="/docentes-gestao" component={doc_gestao} />
 
     <Route exact path="/footer" component={Footer} />
   </BrowserRouter>

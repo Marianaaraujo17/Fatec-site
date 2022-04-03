@@ -111,7 +111,7 @@ const manut_aero = () => (
         </Col>
       </Row>
     </Container>
-    <Container>
+    <Container style={{ display: "flex", justifyContent: "center" }}>
       <ReactYouTube videoId="d1vkNIYDVWA" />
       <br />
     </Container>

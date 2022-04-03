@@ -1,0 +1,14 @@
+.doc_link {
+  text-decoration: none;
+  color: black;
+}
+
+.doc_link:hover {
+  color: initial;
+}
+
+.nome {
+  text-decoration: none;
+  color: black;
+  font-family: Cambria;
+}

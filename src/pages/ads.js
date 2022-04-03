@@ -46,7 +46,7 @@ const links = [
   {
     titulo: "Docentes",
     subtitulo: "",
-    link: "",
+    link: "/docentes-ads",
     botao: "Clique aqui para visualizar a lista de docentes.",
   },
 ];
@@ -96,7 +96,7 @@ const ads = () => (
       </Row>
     </Container>
 
-    <Container>
+    <Container style={{ display: "flex", justifyContent: "center" }}>
       <ReactYouTube videoId="_1qJ5fEUifU" />
       <br />
     </Container>

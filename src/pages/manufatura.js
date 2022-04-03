@@ -105,7 +105,7 @@ const manufatura = () => (
         </Col>
       </Row>
     </Container>
-    <Container>
+    <Container style={{ display: "flex", justifyContent: "center" }}>
       <ReactYouTube videoId="oQpdILOtVbc" />
       <br />
     </Container>

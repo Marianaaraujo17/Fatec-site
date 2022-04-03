@@ -97,7 +97,7 @@ const logistica = () => (
         </Col>
       </Row>
     </Container>
-    <Container>
+    <Container style={{ display: "flex", justifyContent: "center" }}>
       <ReactYouTube videoId="73zQmITJsd0" />
       <br />
     </Container>

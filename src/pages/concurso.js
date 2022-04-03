@@ -19,7 +19,7 @@ const concurso = () => (
       <p className="titulo">CONCURSO PÚBLICO</p>
     </Container>
     <Container>
-      <Card>
+      <Card className="concurso-card">
         <Row>
           <p id="subtitulo">Docentes</p>
           <p id="espaco">

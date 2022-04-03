@@ -95,7 +95,7 @@ const proj_est_aero = () => (
         </Col>
       </Row>
     </Container>
-    <Container>
+    <Container style={{ display: "flex", justifyContent: "center" }}>
       <ReactYouTube videoId="bAaQiT6ESUs" />
       <br />
     </Container>
