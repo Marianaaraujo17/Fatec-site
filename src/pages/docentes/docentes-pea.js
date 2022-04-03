@@ -131,7 +131,7 @@ const lista = [
   },
 ];
 
-const doc_manufatura = () => (
+const doc_pea = () => (
   <App>
     <Container
       style={{
@@ -182,4 +182,4 @@ const doc_manufatura = () => (
   </App>
 );
 
-export default doc_manufatura;
+export default doc_pea;

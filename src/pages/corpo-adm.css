@@ -1,0 +1,32 @@
+* {
+  font-family: "Noto Sans";
+}
+
+.nome {
+  font-size: 22px;
+}
+
+.area {
+  font-size: 18px;
+}
+
+h2 {
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+.imagens {
+  max-width: 360px;
+}
+
+.link {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 22px;
+}
+
+.titulo {
+  font-size: 40px;
+  color: #005c6e;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}

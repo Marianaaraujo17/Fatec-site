@@ -1,19 +1,45 @@
 import React from "react";
 import App from "../../containers/App";
 import Footer from "../../components/footer";
-import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";
-import "./docentes-geral.css";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import perfil from "../../components/images/docentes/profile.png";
 
-const introducao = [
+const lista = [
   {
-    titulo: "Resumo",
-    descricao:
-      "O Tecnólogo em Análise e Desenvolvimento de Sistemas cria, projeta, desenvolve e configura programas, softwares e sistemas para inúmeras empresas. Faz auditoria de sistemas para avaliar possíveis erros e falhas. Além disso, o tecnólogo em Análise e Desenvolvimento de Sistemas está apto a prestar consultoria e desenvolver pesquisas.",
+    nome: "Reinaldo Gen Ichiro Arakaki (Coordenador)",
+    cv: "http://lattes.cnpq.br/2075406788034578",
   },
   {
-    titulo: "Onde este tecnólogo poderá trabalhar?",
-    descricao:
-      "Como a informática está presente em praticamente todos os setores da sociedade, o tecnólogo em Análise e Desenvolvimento de Sistemas pode atuar em empresas públicas ou privadas, instituições financeiras, consultorias, terceiro setor, empresas especializadas em Tecnologia da Informação (TI), indústrias etc.",
+    nome: "Cláudio Etelvino de Lima",
+    cv: "http://lattes.cnpq.br/9330552327454666",
+  },
+  {
+    nome: "Fabiano Sabha Walczak",
+    cv: "http://lattes.cnpq.br/8632801813322469",
+  },
+  {
+    nome: "Fabrício Galende Marques de Carvalho",
+    cv: "http://lattes.cnpq.br/8632801813322469",
+  },
+  {
+    nome: "Fernando Masanori Ashikaga",
+    cv: "http://lattes.cnpq.br/3324339924853354",
+  },
+  {
+    nome: "Gerson da Penha Neto",
+    cv: "http://lattes.cnpq.br/9441903297380731",
+  },
+  {
+    nome: "Jean Carlos Lourenço Costa",
+    cv: "http://lattes.cnpq.br/4723982029081265",
+  },
+  {
+    nome: "José Walmir Gonçalves Duque",
+    cv: "http://lattes.cnpq.br/4678097512178887",
+  },
+  {
+    nome: "Juliana Forin Pasquini Martinez",
+    cv: "http://lattes.cnpq.br/1506784529918492",
   },
 ];
 
@@ -31,34 +57,38 @@ const doc_dsm = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</p>
+          <p className="titulo">DOCENTES</p>
           <p className="subtitulo">
-            40 Vagas no período da Manhã | Informação e Comunicação
+            DESENVOLVIMENTO DE SOFTWARE MULTIPLATAFORMA
           </p>
         </Col>
       </Row>
     </Container>
-
-    <Container id="resumo" style={{ marginBottom: "50px" }}>
-      <Row>
-        <Col md={{ span: 12 }}>
-          <CardGroup>
-            {introducao.map((object, index) => {
-              return (
-                <Card style={{ marginRight: "50px" }}>
-                  <Card.Body>
-                    <Card.Title className="card-titulo">
-                      {object.titulo}
-                    </Card.Title>
-                    <Card.Text className="card-descricao">
-                      {object.descricao}
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              );
-            })}
-          </CardGroup>
-        </Col>
+    <Container style={{ marginBottom: "20px" }}>
+      <Button href="/docentes">Voltar para a área de Docentes</Button>
+    </Container>
+    <Container
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        marginBottom: "50px",
+      }}
+    >
+      <Row xs={1} md={2} className="g-4">
+        {lista.map((obj) => (
+          <Col>
+            <a className="nome" target="_blank" href={obj.cv}>
+              <Card>
+                <Card.Body>
+                  <Card.Title>
+                    <img src={perfil} width={150} height={150}></img>
+                  </Card.Title>
+                  <Card.Text>{obj.nome}</Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
+          </Col>
+        ))}
       </Row>
     </Container>
 
