@@ -1,23 +1,137 @@
 import React from "react";
 import App from "../../containers/App";
 import Footer from "../../components/footer";
-import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";
-import "./docentes-geral.css";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import perfil from "../../components/images/docentes/profile.png";
 
-const introducao = [
+const lista = [
   {
-    titulo: "Resumo",
-    descricao:
-      "O Tecnólogo em Análise e Desenvolvimento de Sistemas cria, projeta, desenvolve e configura programas, softwares e sistemas para inúmeras empresas. Faz auditoria de sistemas para avaliar possíveis erros e falhas. Além disso, o tecnólogo em Análise e Desenvolvimento de Sistemas está apto a prestar consultoria e desenvolver pesquisas.",
+    nome: "Carlos Lineu de Faria e Alves (Coordenador)",
+    cv: "http://lattes.cnpq.br/1659520862242303",
   },
   {
-    titulo: "Onde este tecnólogo poderá trabalhar?",
-    descricao:
-      "Como a informática está presente em praticamente todos os setores da sociedade, o tecnólogo em Análise e Desenvolvimento de Sistemas pode atuar em empresas públicas ou privadas, instituições financeiras, consultorias, terceiro setor, empresas especializadas em Tecnologia da Informação (TI), indústrias etc.",
+    nome: "Alfred Makoto Kabayama",
+    cv: "http://lattes.cnpq.br/9538707811469897",
+  },
+  {
+    nome: "Ana Cecília Rodrigues Medeiros",
+    cv: "http://lattes.cnpq.br/1940086892227479",
+  },
+  {
+    nome: "Antonio Wellington Sales Rios",
+    cv: "http://lattes.cnpq.br/5381625486751504",
+  },
+  {
+    nome: "Bruno Peruchi Trevisan",
+    cv: "http://lattes.cnpq.br/7753807121855274",
+  },
+  {
+    nome: "Celso de Oliveira",
+    cv: "http://lattes.cnpq.br/6515353941367961",
+  },
+  {
+    nome: "Danielle Cristina de Morais Amorim",
+    cv: "http://lattes.cnpq.br/4540882358553916",
+  },
+  {
+    nome: "Dercy Félix da Silva",
+    cv: "http://lattes.cnpq.br/7911918958263988",
+  },
+  {
+    nome: "Edmar de Queiróz Figueiredo",
+    cv: "http://lattes.cnpq.br/0167719495243420",
+  },
+  {
+    nome: "Eduardo Clemente de Medeiros",
+    cv: "http://lattes.cnpq.br/6959627044949288",
+  },
+  {
+    nome: "Eduardo de Castro Faustino Coelho",
+    cv: "http://lattes.cnpq.br/6968717905595612",
+  },
+  {
+    nome: "Fabiana Eloisa Passador",
+    cv: "http://lattes.cnpq.br/5954754249075851",
+  },
+  {
+    nome: "Fábio José Santos de Oliveira",
+    cv: "http://lattes.cnpq.br/5665569935426089",
+  },
+  {
+    nome: "Felix Arlindo Strottmann",
+    cv: "http://lattes.cnpq.br/8478784526842018",
+  },
+  {
+    nome: "Heide Heloise Bernardi",
+    cv: "http://lattes.cnpq.br/7731226311524994",
+  },
+  {
+    nome: "Hudson Alberto Bode",
+    cv: "http://lattes.cnpq.br/3555037033356299",
+  },
+  {
+    nome: "Joares Lidovino dos Reis",
+    cv: "http://lattes.cnpq.br/7963698498836684",
+  },
+  {
+    nome: "Jorge Tadao Matsushima",
+    cv: "http://lattes.cnpq.br/1266568094950867",
+  },
+  {
+    nome: "José Jaétis Rosário",
+    cv: "http://lattes.cnpq.br/3722748744687441",
+  },
+  {
+    nome: "Leônidas Lopes de Melo",
+    cv: "http://lattes.cnpq.br/5724312050985045",
+  },
+  {
+    nome: "Lucas Giovanetti",
+    cv: "http://lattes.cnpq.br/3093689772701905",
+  },
+  {
+    nome: "Luiz Alberto Nolasco Fonseca",
+    cv: "http://lattes.cnpq.br/7896838403267274",
+  },
+  {
+    nome: "Marcos da Silva e Souza",
+    cv: "http://lattes.cnpq.br/8872909500743880",
+  },
+  {
+    nome: "Marcus Vinícius do Nascimento",
+    cv: "http://lattes.cnpq.br/3855964357335792",
+  },
+  {
+    nome: "Marluce Gavião Sacramento Dias",
+    cv: "http://lattes.cnpq.br/6046996954018861",
+  },
+  {
+    nome: "Nilo Castro dos Santos",
+    cv: "http://lattes.cnpq.br/5514511194095282",
+  },
+  {
+    nome: "Reinaldo Viveiros Carraro",
+    cv: "http://lattes.cnpq.br/3696825556037490",
+  },
+  {
+    nome: "Renato Galvão da Silveira Mussi",
+    cv: "http://lattes.cnpq.br/8387564352962864",
+  },
+  {
+    nome: "Rita de Cássia Mendonça Sales Contini",
+    cv: "http://lattes.cnpq.br/2711147975748001",
+  },
+  {
+    nome: "Rodrigo Elias Pereira",
+    cv: "http://lattes.cnpq.br/2815094010702397",
+  },
+  {
+    nome: "Valter João de Sousa",
+    cv: "http://lattes.cnpq.br/4037684544757358",
   },
 ];
 
-const doc_pea = () => (
+const doc_manufatura = () => (
   <App>
     <Container
       style={{
@@ -31,34 +145,36 @@ const doc_pea = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</p>
-          <p className="subtitulo">
-            40 Vagas no período da Manhã | Informação e Comunicação
-          </p>
+          <p className="titulo">DOCENTES</p>
+          <p className="subtitulo">PROJETOS DE ESTRUTURAS AERONÁUTICAS</p>
         </Col>
       </Row>
     </Container>
-
-    <Container id="resumo" style={{ marginBottom: "50px" }}>
-      <Row>
-        <Col md={{ span: 12 }}>
-          <CardGroup>
-            {introducao.map((object, index) => {
-              return (
-                <Card style={{ marginRight: "50px" }}>
-                  <Card.Body>
-                    <Card.Title className="card-titulo">
-                      {object.titulo}
-                    </Card.Title>
-                    <Card.Text className="card-descricao">
-                      {object.descricao}
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              );
-            })}
-          </CardGroup>
-        </Col>
+    <Container style={{ marginBottom: "20px" }}>
+      <Button href="/docentes">Voltar para a área de Docentes</Button>
+    </Container>
+    <Container
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        marginBottom: "50px",
+      }}
+    >
+      <Row xs={1} md={2} className="g-4">
+        {lista.map((obj) => (
+          <Col>
+            <a className="nome" target="_blank" href={obj.cv}>
+              <Card>
+                <Card.Body>
+                  <Card.Title>
+                    <img src={perfil} width={150} height={150}></img>
+                  </Card.Title>
+                  <Card.Text>{obj.nome}</Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
+          </Col>
+        ))}
       </Row>
     </Container>
 
@@ -66,4 +182,4 @@ const doc_pea = () => (
   </App>
 );
 
-export default doc_pea;
+export default doc_manufatura;
