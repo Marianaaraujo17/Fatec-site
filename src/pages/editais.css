@@ -1,0 +1,16 @@
+.titulo {
+    font-size: 40px;
+    color: #005c6e;
+    font-family: "Noto Sans";
+    font-weight: bold;
+  }
+
+#subtitulo{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#cor{
+  color: red;
+  font-size: 22px;
+}
