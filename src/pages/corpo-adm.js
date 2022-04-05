@@ -37,7 +37,7 @@ const assistente = [
 const coordenacao = [
   {
     nome: "Fabiano Sabha Walczak",
-    curso: "Análise de Desenvolvimento de Sistemas",
+    curso: "Análise e Desenvolvimento de Sistemas",
     imagem: { perfil },
     cv: "http://lattes.cnpq.br/4250738143383384",
     email: "f146.adssjc@fatec.sp.gov.br",
@@ -209,7 +209,7 @@ const corpo_adm = () => (
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
           <h2>Diretoria da Unidade</h2>
         </Col>
-        <Col md={10}>
+        <Col style={{ marginBottom: "20px" }} md={10}>
           <p>
             A Diretoria é o órgão executivo encarregado de dirigir e coordenar
             as atividades da Faculdade.<br></br>
@@ -230,29 +230,269 @@ const corpo_adm = () => (
             </div>
           ))}
         </Col>
+        <hr></hr>
       </Row>
       <Row style={{ marginBottom: "40px" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>Sala de Atendimentos no Parque Tecnológico</h2>
+          <h2>Assistente do Diretor</h2>
         </Col>
-        <Col md={{ span: 12 }}>
+        <Col style={{ marginBottom: "20px" }} md={10}>
+          {assistente.map((obj) => (
+            <div>
+              <img src={perfil} width={150} height={150}></img>
+              <p className="nome">{obj.nome}</p>
+              <p className="area">{obj.area}</p>
+              <Col>
+                <a style={{ marginRight: "10px" }} href={obj.cv}>
+                  <GrNotes></GrNotes>
+                </a>
+                <a href={obj.email}>
+                  <AiOutlineMail></AiOutlineMail>
+                </a>
+              </Col>
+            </div>
+          ))}
+        </Col>
+        <hr></hr>
+      </Row>
+
+      <Row style={{ marginBottom: "40px" }}>
+        <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
+          <h2>Coordenação de Cursos</h2>
+        </Col>
+        <Col md={10}>
           <p>
-            Contamos com uma Sala de apoio para Reuniões, Atendimentos e
-            Capacitações no seguinte endereço:<br></br>{" "}
-            <p style={{ fontStyle: "italic" }}>
-              Parque Tecnológico São José dos Campos - Centro Empresarial II –
-              Sala 2207<br></br> Estrada Dr. Altino Bondensan, 500 – Distrito
-              Eugênio de Melo, São José dos Campos - SP, CEP 12210-131
-            </p>
+            A Coordenação de Curso em Implantação é a menor fração da estrutura
+            da Faculdade para todos os efeitos de organização administrativa,
+            didático-científica e de distribuição de pessoal.
+            <br></br>
           </p>
         </Col>
-        <Col md={{ span: 6 }}>
-          <img style={{ maxWidth: "600px" }} src={foto_parque}></img>
-        </Col>
-        <Col md={{ span: 6 }}>
-          <img style={{ maxWidth: "535px" }} src={foto_cadi}></img>
-        </Col>
+        <Row xs={1} md={3} className="g-4">
+          {coordenacao.map((obj) => (
+            <Col>
+              <Card>
+                <Card.Body>
+                  <Card.Title>
+                    <img src={perfil} width={150} height={150}></img>
+                  </Card.Title>
+                  <Card.Text>
+                    <p className="nome">{obj.nome}</p>
+                  </Card.Text>
+                  <Card.Text>
+                    <a id="cor" href={obj.ref} className="curso">
+                      {obj.curso}
+                    </a>
+                  </Card.Text>
+                  <Card.Text>
+                    <a
+                      target="_blank"
+                      style={{ marginRight: "10px" }}
+                      href={obj.cv}
+                    >
+                      <GrNotes></GrNotes>
+                    </a>
+                    <a target="_blank" href={obj.email}>
+                      <AiOutlineMail></AiOutlineMail>
+                    </a>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
       </Row>
+      <hr></hr>
+
+      <Row style={{ marginBottom: "40px" }}>
+        <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
+          <h2>Diretoria de Serviços Acadêmicos</h2>
+        </Col>
+        <Col md={10}>
+          <p>
+            A Secretaria Acadêmica é o órgão de apoio da Direção, onde se
+            centralizam os registros dos serviços administrativos concernentes
+            ao regime didático e escolar da Faculdade.
+            <br></br>
+          </p>
+          <p>
+            É o órgão responsável, entre outras coisas, pela emissão de
+            documentos e registros de notas.
+          </p>
+        </Col>
+        <Row xs={1} md={3} className="g-4">
+          {diretoria_academica.map((obj) => (
+            <Col>
+              <Card>
+                <Card.Body>
+                  <Card.Title>
+                    <img src={perfil} width={150} height={150}></img>
+                  </Card.Title>
+                  <Card.Text>
+                    <p className="nome">{obj.nome}</p>
+                  </Card.Text>
+                  <Card.Text>
+                    <p href={obj.ref} className="area">
+                      {obj.area}
+                    </p>
+                  </Card.Text>
+                  <Card.Text>
+                    <a
+                      target="_blank"
+                      style={{ marginRight: "10px" }}
+                      href={obj.cv}
+                    >
+                      <GrNotes></GrNotes>
+                    </a>
+                    <a target="_blank" href={obj.email}>
+                      <AiOutlineMail></AiOutlineMail>
+                    </a>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </Row>
+      <hr></hr>
+
+      <Row style={{ marginBottom: "40px" }}>
+        <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
+          <h2>Diretoria de Serviços Administrativos</h2>
+        </Col>
+        <Col md={10}>
+          <p>
+            A Diretoria de Serviços Administrativos é o órgão responsável pela
+            direção e coordenação das atividades de suporte administrativo e
+            operacional ao desenvolvimento do ensino e da pesquisa, promovendo,
+            entre outras atividades, as medidas administrativas necessárias à
+            defesa e preservação dos bens patrimoniais.
+            <br></br>
+          </p>
+        </Col>
+        <Row xs={1} md={3} className="g-4">
+          {diretoria_administrativa.map((obj) => (
+            <Col>
+              <Card>
+                <Card.Body>
+                  <Card.Title>
+                    <img src={perfil} width={150} height={150}></img>
+                  </Card.Title>
+                  <Card.Text>
+                    <p className="nome">{obj.nome}</p>
+                  </Card.Text>
+                  <Card.Text>
+                    <p href={obj.ref} className="area">
+                      {obj.area}
+                    </p>
+                  </Card.Text>
+                  <Card.Text>
+                    <a
+                      target="_blank"
+                      style={{ marginRight: "10px" }}
+                      href={obj.cv}
+                    >
+                      <GrNotes></GrNotes>
+                    </a>
+                    <a target="_blank" href={obj.email}>
+                      <AiOutlineMail></AiOutlineMail>
+                    </a>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </Row>
+      <hr></hr>
+
+      <Row style={{ marginBottom: "40px" }}>
+        <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
+          <h2>Biblioteca</h2>
+        </Col>
+        <Col style={{ marginBottom: "20px" }} md={10}>
+          {biblioteca.map((obj) => (
+            <div>
+              <img src={perfil} width={150} height={150}></img>
+              <p className="nome">{obj.nome}</p>
+              <p className="area">{obj.area}</p>
+              <Col>
+                <a style={{ marginRight: "10px" }} href={obj.cv}>
+                  <GrNotes></GrNotes>
+                </a>
+                <a href={obj.email}>
+                  <AiOutlineMail></AiOutlineMail>
+                </a>
+              </Col>
+            </div>
+          ))}
+        </Col>
+        <hr></hr>
+      </Row>
+
+      <Row style={{ marginBottom: "40px" }}>
+        <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
+          <h2>Departamento de Informática</h2>
+        </Col>
+        <Col style={{ marginBottom: "20px" }} md={10}>
+          {informatica.map((obj) => (
+            <div>
+              <img src={perfil} width={150} height={150}></img>
+              <p className="nome">{obj.nome}</p>
+              <p className="area">{obj.area}</p>
+              <Col>
+                <a style={{ marginRight: "10px" }} href={obj.cv}>
+                  <GrNotes></GrNotes>
+                </a>
+                <a href={obj.email}>
+                  <AiOutlineMail></AiOutlineMail>
+                </a>
+              </Col>
+            </div>
+          ))}
+        </Col>
+        <hr></hr>
+      </Row>
+      <Row style={{ marginBottom: "40px" }}>
+        <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
+          <h2>Auxiliar Docente</h2>
+        </Col>
+        <Col md={10}></Col>
+        <Row xs={1} md={3} className="g-4">
+          {auxiliar_docente.map((obj) => (
+            <Col>
+              <Card>
+                <Card.Body>
+                  <Card.Title>
+                    <img src={perfil} width={150} height={150}></img>
+                  </Card.Title>
+                  <Card.Text>
+                    <p className="nome">{obj.nome}</p>
+                  </Card.Text>
+                  <Card.Text>
+                    <p href={obj.ref} className="area">
+                      {obj.area}
+                    </p>
+                  </Card.Text>
+                  <Card.Text>
+                    <a
+                      target="_blank"
+                      style={{ marginRight: "10px" }}
+                      href={obj.cv}
+                    >
+                      <GrNotes></GrNotes>
+                    </a>
+                    <a target="_blank" href={obj.email}>
+                      <AiOutlineMail></AiOutlineMail>
+                    </a>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </Row>
+      <hr></hr>
     </Container>
     <Footer />{" "}
   </App>

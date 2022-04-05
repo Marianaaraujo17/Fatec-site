@@ -1,13 +1,14 @@
-* {
-  font-family: "Noto Sans";
-}
-
-.nome {
+corpo_adm .nome {
   font-size: 22px;
 }
 
 .area {
   font-size: 18px;
+}
+
+.curso {
+  font-size: 18px;
+  text-decoration: none;
 }
 
 h2 {
@@ -21,7 +22,7 @@ h2 {
 .link {
   text-decoration: none;
   color: darkblue;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .titulo {
@@ -29,4 +30,9 @@ h2 {
   color: #005c6e;
   font-family: "Noto Sans";
   font-weight: bold;
+}
+
+#cor {
+  color: red;
+  font-size: 18px;
 }
