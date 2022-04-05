@@ -121,7 +121,7 @@ const Routes = () => (
     <Route exact path="/docentes-dsm" component={doc_dsm} />
     <Route exact path="/docentes-pea" component={doc_pea} />
     <Route exact path="/docentes-logistica" component={doc_logistica} />
-    <Route exact path="/docentes-manutencao" component={doc_manut} />
+    <Route exact path="/docentes-manut" component={doc_manut} />
     <Route exact path="/docentes-manufatura" component={doc_manufatura} />
     <Route exact path="/docentes-gestao" component={doc_gestao} />
 

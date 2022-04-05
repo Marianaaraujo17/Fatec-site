@@ -99,7 +99,7 @@ const lista = [
   },
   {
     nome: "Marcus Vinícius do Nascimento",
-    cv: "hhttp://lattes.cnpq.br/3855964357335792",
+    cv: "http://lattes.cnpq.br/3855964357335792",
   },
   {
     nome: "Marluce Gavião Sacramento Dias",
@@ -146,7 +146,7 @@ const doc_pea = () => (
       <Row>
         <Col>
           <p className="titulo">DOCENTES</p>
-          <p className="subtitulo">MANUTENÇÃO DE AERONAVES</p>
+          <p className="subtitulo">PROJETOS DE ESTRUTURAS AERONÁUTICAS</p>
         </Col>
       </Row>
     </Container>
