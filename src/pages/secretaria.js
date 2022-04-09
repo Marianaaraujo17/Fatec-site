@@ -17,14 +17,15 @@ const secretaria = () => (
         marginBottom: "50px",
       }}
     >
-      <p className="titulo">SECRETARIA ACADÊMICA</p>
+      <p className="sct-titulo">SECRETARIA ACADÊMICA</p>
     </Container>
     <Container>
       <Card>
         <Row>
           <p id="subtitulo">Horário de Funcionamento</p>
           <p id="espaco">
-            De segunda a sexta das <mark id="marca">08h30 às 12h30</mark> e das <mark id="marca">14h00 às 22h00</mark>.
+            De segunda a sexta das <mark id="marca">08h30 às 12h30</mark> e das{" "}
+            <mark id="marca">14h00 às 22h00</mark>.
           </p>
           <p id="subtitulo">Sobre a Secretaria</p>
           <p id="espaco">
@@ -35,22 +36,52 @@ const secretaria = () => (
           <p>
             Recebemos a documentação dos candidatos aprovados via vestibular e
             somos responsáveis pela inclusão dos mesmos no sistema utilizado
-            pela Fatec <a id="bold">(SIGA)</a> e por repassar os dados de acesso de cada aluno.
+            pela Fatec <a id="bold">(SIGA)</a> e por repassar os dados de acesso
+            de cada aluno.
           </p>
           <p id="espaco">
             Se impossibilitado de comparecer para realizar a matrícula, o
-            candidato pode indicar um representante, portando uma <a id="cor" target="_blank" href="https://fatecsjc-prd.azurewebsites.net/downloads/secretaria/procuracao_para_matricula.pdf">procuração
-             para fins específicos de realização de matrícula inicial</a>, juntamente
-            com os documentos exigidos <a id="cor" target="_blank" href="https://fatweb.s3.amazonaws.com/vestibularfatec/documentos/2SEM-21/ManualCandidato.pdf#page=27">(conforme Manual do Candidato)</a>. A
-            matrícula dos ingressantes é realizada de forma automática em todas
-            disciplinas do 1º Semestre.{" "}
+            candidato pode indicar um representante, portando uma{" "}
+            <a
+              id="cor"
+              target="_blank"
+              href="https://fatecsjc-prd.azurewebsites.net/downloads/secretaria/procuracao_para_matricula.pdf"
+            >
+              procuração para fins específicos de realização de matrícula
+              inicial
+            </a>
+            , juntamente com os documentos exigidos{" "}
+            <a
+              id="cor"
+              target="_blank"
+              href="https://fatweb.s3.amazonaws.com/vestibularfatec/documentos/2SEM-21/ManualCandidato.pdf#page=27"
+            >
+              (conforme Manual do Candidato)
+            </a>
+            . A matrícula dos ingressantes é realizada de forma automática em
+            todas disciplinas do 1º Semestre.{" "}
           </p>
           <p id="subtitulo">Matrícula de Veteranos (Rematrícula)</p>
           <p id="espaco">
-            É obrigatória em cada novo semestre de acordo com o <a target="_black" href="https://fatecsjc-prd.azurewebsites.net/downloads/calendario/calendario_2022-1.pdf" id="cor">Calendário
-            Acadêmico</a> , a ausência da matrícula acarretará em trancamento, caso
-            o aluno ainda tenha direito. As matrículas são processadas pelo SIGA
-            conforme <a id="cor" target="_blank" href="https://fatecsjc-prd.azurewebsites.net/downloads/secretaria/regulamentogeral.pdf">Regulamento Geral dos Cursos de Graduação das FATECs</a>.{" "}
+            É obrigatória em cada novo semestre de acordo com o{" "}
+            <a
+              target="_black"
+              href="https://fatecsjc-prd.azurewebsites.net/downloads/calendario/calendario_2022-1.pdf"
+              id="cor"
+            >
+              Calendário Acadêmico
+            </a>{" "}
+            , a ausência da matrícula acarretará em trancamento, caso o aluno
+            ainda tenha direito. As matrículas são processadas pelo SIGA
+            conforme{" "}
+            <a
+              id="cor"
+              target="_blank"
+              href="https://fatecsjc-prd.azurewebsites.net/downloads/secretaria/regulamentogeral.pdf"
+            >
+              Regulamento Geral dos Cursos de Graduação das FATECs
+            </a>
+            .{" "}
           </p>
           <p id="subtitulo">Desistência de Disciplinas</p>
           <p id="espaco">
@@ -108,8 +139,11 @@ const secretaria = () => (
             Somos responsáveis pelo recebimento, registro e encaminhamento para
             assinatura e devolução de contratos de estágio e acordos de
             cooperação. Relatórios de estágios finalizados devem ser
-            encaminhados ao coordenador do curso. Na aba <a href="/portal" id="cor" target="_blank">Estágios</a> você pode
-            encontrar mais informações.{" "}
+            encaminhados ao coordenador do curso. Na aba{" "}
+            <a href="/portal" id="cor" target="_blank">
+              Estágios
+            </a>{" "}
+            você pode encontrar mais informações.{" "}
           </p>
           <p id="subtitulo">Abono de Faltas</p>
           <p id="espaco">
@@ -142,10 +176,17 @@ const secretaria = () => (
           <p id="espaco">
             São condições para que o aluno seja submetido ao regime de
             exercícios domiciliares:
-            <br /> - Requerimento em <a id="cor" target="_blank" href="https://fatecsjc-prd.azurewebsites.net/downloads/secretaria/formulario_abono_regime.pdf">formulário específico</a> devidamente
-            preenchido, protocolado junto à Secretaria Acadêmica solicitando o
-            Regime de Exercícios Domiciliares, no prazo máximo de 5 (cinco) dias
-            úteis contados a partir da data do afastamento;
+            <br /> - Requerimento em{" "}
+            <a
+              id="cor"
+              target="_blank"
+              href="https://fatecsjc-prd.azurewebsites.net/downloads/secretaria/formulario_abono_regime.pdf"
+            >
+              formulário específico
+            </a>{" "}
+            devidamente preenchido, protocolado junto à Secretaria Acadêmica
+            solicitando o Regime de Exercícios Domiciliares, no prazo máximo de
+            5 (cinco) dias úteis contados a partir da data do afastamento;
             <br /> - Laudo médico contendo assinatura e nº do CRM, período do
             afastamento não inferior a 15 (quinze) dias, especificando a
             natureza do impedimento e informações de que as condições
@@ -169,9 +210,9 @@ const secretaria = () => (
             <br />
           </p>
           <p id="espaco">
-            <a id="bold">Importante:</a> É de responsabilidade do aluno, manter-se em contato com
-            os professores para o cumprimento das tarefas estabelecidas no
-            regime de exercícios domiciliares.
+            <a id="bold">Importante:</a> É de responsabilidade do aluno,
+            manter-se em contato com os professores para o cumprimento das
+            tarefas estabelecidas no regime de exercícios domiciliares.
             <br /> Impedimentos não contemplados no Regime de Exercícios
             Domiciliares por não atenderem às disposições estabelecidas, serão
             computados como faltas.
@@ -182,12 +223,21 @@ const secretaria = () => (
             informações cadastradas no SIGA e nos documentos mantidos em
             arquivos.
           </p>
-          <img style={{ maxWidth: "600px", marginBottom:"60px"}} src={tabelaDocumentos}/>
+          <img
+            style={{ maxWidth: "600px", marginBottom: "60px" }}
+            src={tabelaDocumentos}
+          />
           <p>
-          Para requerer os documentos listados acima, existem 3 opções:<br/>
-- Via SIGA em Solicitações - Solicitação de Documentos;<br/>
-- Entrando em <a href="/contato" target="_blank" id="cor">Contato pelo site</a> ou;<br/>
-- Enviando mensagens via e-mail <mark id="marca">f146.secretaria@fatec.sp.gov.br</mark>
+            Para requerer os documentos listados acima, existem 3 opções:
+            <br />
+            - Via SIGA em Solicitações - Solicitação de Documentos;
+            <br />- Entrando em{" "}
+            <a href="/contato" target="_blank" id="cor">
+              Contato pelo site
+            </a>{" "}
+            ou;
+            <br />- Enviando mensagens via e-mail{" "}
+            <mark id="marca">f146.secretaria@fatec.sp.gov.br</mark>
           </p>
         </Row>
       </Card>

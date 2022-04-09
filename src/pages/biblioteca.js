@@ -16,7 +16,7 @@ const biblioteca = () => (
         marginBottom: "50px",
       }}
     >
-      <p className="titulo">BIBLIOTECA</p>
+      <p className="bbl-titulo">BIBLIOTECA</p>
     </Container>
     <Container>
       <Row>

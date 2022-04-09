@@ -1,21 +1,21 @@
-.titulo {
+.dsm-titulo {
   font-size: 40px;
   color: #005c6e;
   font-family: "Noto Sans";
   font-weight: bold;
 }
 
-.subtitulo {
+.dsm-subtitulo {
   font-family: Noto Sans;
   font-weight: lighter;
   font-size: 20px;
 }
 
-.card-titulo {
+.dsm-card-titulo {
   color: #2bb8c9;
   font-weight: bold;
 }
-.card-texto {
+.dsm-card-texto {
   font-family: "Noto Sans";
   font-size: 23px;
 }
@@ -25,21 +25,21 @@
   color: aquamarine;
 }
 
-.card-link-titulo {
+.dsm-card-link-titulo {
   font-family: "Lucida Sans";
   font-weight: bolder;
 }
-.card-link-subtitulo {
+.dsm-card-link-subtitulo {
   font-family: "Lucida Sans";
   font-size: 14;
   font-weight: lighter;
 }
 
-.card-botao {
+.dsm-card-botao {
   font-family: "Lucida Sans";
 }
 
-.card-descricao {
+.dsm-card-descricao {
   text-align: justify;
   font-family: "Noto Sans";
   font-size: 23px;

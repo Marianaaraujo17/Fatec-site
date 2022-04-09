@@ -1,45 +1,45 @@
-.titulo {
+.pea-titulo {
   font-size: 40px;
   color: #005c6e;
   font-family: "Noto Sans";
   font-weight: bold;
 }
 
-.subtitulo {
+.pea-subtitulo {
   font-family: Noto Sans;
   font-weight: lighter;
   font-size: 20px;
 }
 
-.card-titulo {
+.pea-card-titulo {
   color: #2bb8c9;
   font-weight: bold;
 }
-.card-texto {
+.pea-card-texto {
   font-family: "Noto Sans";
   font-size: 23px;
 }
 
-.links {
+.pea-links {
   text-decoration: none;
   color: aquamarine;
 }
 
-.card-link-titulo {
+.pea-card-link-titulo {
   font-family: "Lucida Sans";
   font-weight: bolder;
 }
-.card-link-subtitulo {
+.pea-card-link-subtitulo {
   font-family: "Lucida Sans";
   font-size: 14;
   font-weight: lighter;
 }
 
-.card-botao {
+.pea-card-botao {
   font-family: "Lucida Sans";
 }
 
-.card-descricao {
+.pea-card-descricao {
   text-align: justify;
   font-family: "Noto Sans";
   font-size: 23px;

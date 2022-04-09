@@ -1,14 +1,14 @@
-p {
+.cpa-p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 22px;
 }
 
-text {
+.cpa-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 22px;
 }
 
-h2 {
+.cpa-h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
 }
@@ -16,7 +16,7 @@ h2 {
   max-width: 360px;
 }
 
-.link {
+.cpa-link {
   text-decoration: none;
   color: darkblue;
   font-size: 22px;

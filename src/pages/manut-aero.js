@@ -73,8 +73,8 @@ const manut_aero = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">MANUTENÇÃO DE AERONAVES</p>
-          <p className="subtitulo">
+          <p className="manut-titulo">MANUTENÇÃO DE AERONAVES</p>
+          <p className="manut-subtitulo">
             40 Vagas no período da Noite | Controle e Processos Industriais
           </p>
         </Col>
@@ -89,10 +89,10 @@ const manut_aero = () => (
               return (
                 <Card style={{ marginRight: "50px" }}>
                   <Card.Body>
-                    <Card.Title className="card-titulo">
+                    <Card.Title className="manut-card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text className="card-descricao">
+                    <Card.Text className="manut-card-descricao">
                       {object.descricao}
                       <br />
                       <a
@@ -122,14 +122,14 @@ const manut_aero = () => (
             <Col>
               <Card>
                 <Card.Body>
-                  <Card.Title className="card-link-titulo">
+                  <Card.Title className="manut-card-link-titulo">
                     {object.titulo}
                   </Card.Title>
-                  <Card.Text className="card-link-subtitulo">
+                  <Card.Text className="manut-card-link-subtitulo">
                     {object.subtitulo}
                   </Card.Text>
                   <Button
-                    className="card-botao"
+                    className="manut-card-botao"
                     variant="outline-success"
                     href={object.link}
                     target="_blank"

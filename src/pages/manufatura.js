@@ -67,8 +67,8 @@ const manufatura = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">MANUFATURA AVANÇADA</p>
-          <p className="subtitulo">
+          <p className="mnft-titulo">MANUFATURA AVANÇADA</p>
+          <p className="mnft-subtitulo">
             40 Vagas no período da Manhã | Controle e Processos Industriais
           </p>
         </Col>
@@ -83,10 +83,10 @@ const manufatura = () => (
               return (
                 <Card style={{ marginRight: "50px" }}>
                   <Card.Body>
-                    <Card.Title className="card-titulo">
+                    <Card.Title className="mnft-card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text className="card-descricao">
+                    <Card.Text className="mnft-card-descricao">
                       {object.descricao}
                       <br />
                       <a
@@ -116,14 +116,14 @@ const manufatura = () => (
             <Col>
               <Card>
                 <Card.Body>
-                  <Card.Title className="card-link-titulo">
+                  <Card.Title className="mnft-card-link-titulo">
                     {object.titulo}
                   </Card.Title>
-                  <Card.Text className="card-link-subtitulo">
+                  <Card.Text className="mnft-card-link-subtitulo">
                     {object.subtitulo}
                   </Card.Text>
                   <Button
-                    className="card-botao"
+                    className="mnft-card-botao"
                     variant="outline-success"
                     href={object.link}
                     target="_blank"

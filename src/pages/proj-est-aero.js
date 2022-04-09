@@ -65,8 +65,8 @@ const proj_est_aero = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">PROJETOS DE ESTRUTURAS AERONÁUTICAS</p>
-          <p className="subtitulo">
+          <p className="pea-titulo">PROJETOS DE ESTRUTURAS AERONÁUTICAS</p>
+          <p className="pea-subtitulo">
             40 Vagas no período da Noite | Controle e Processos Industriais
           </p>
         </Col>
@@ -81,10 +81,10 @@ const proj_est_aero = () => (
               return (
                 <Card style={{ marginRight: "50px" }}>
                   <Card.Body>
-                    <Card.Title className="card-titulo">
+                    <Card.Title className="pea-card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text className="card-descricao">
+                    <Card.Text className="pea-card-descricao">
                       {object.descricao}
                     </Card.Text>
                   </Card.Body>
@@ -106,14 +106,14 @@ const proj_est_aero = () => (
             <Col>
               <Card>
                 <Card.Body>
-                  <Card.Title className="card-link-titulo">
+                  <Card.Title className="pea-card-link-titulo">
                     {object.titulo}
                   </Card.Title>
-                  <Card.Text className="card-link-subtitulo">
+                  <Card.Text className="pea-card-link-subtitulo">
                     {object.subtitulo}
                   </Card.Text>
                   <Button
-                    className="card-botao"
+                    className="pea-card-botao"
                     variant="outline-success"
                     href={object.link}
                     target="_blank"

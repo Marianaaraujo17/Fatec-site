@@ -1,17 +1,17 @@
-p {
+.cadi-p {
   font-family: monospace;
   font-size: 22px;
 }
 
-h2 {
+.cadi-h2 {
   font-family: monospace;
   font-weight: bold;
 }
-.imagens {
+.cadi-imagens {
   max-width: 360px;
 }
 
-.link {
+.cadi-link {
   text-decoration: none;
   color: darkblue;
   font-size: 22px;

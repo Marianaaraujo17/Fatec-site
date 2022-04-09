@@ -64,8 +64,8 @@ const gtproducao_ind = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">GESTÃO DA PRODUÇÃO INDUSTRIAL</p>
-          <p className="subtitulo">
+          <p className="gtp-titulo">GESTÃO DA PRODUÇÃO INDUSTRIAL</p>
+          <p className="gtp-subtitulo">
             40 Vagas no período da Noite | Controle e Processos Industriais
           </p>
         </Col>
@@ -80,10 +80,10 @@ const gtproducao_ind = () => (
               return (
                 <Card style={{ marginRight: "50px" }}>
                   <Card.Body>
-                    <Card.Title className="card-titulo">
+                    <Card.Title className="gtp-card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text className="card-descricao">
+                    <Card.Text className="gtp-card-descricao">
                       {object.descricao}
                     </Card.Text>
                   </Card.Body>
@@ -101,14 +101,14 @@ const gtproducao_ind = () => (
             <Col>
               <Card>
                 <Card.Body>
-                  <Card.Title className="card-link-titulo">
+                  <Card.Title className="gtp-card-link-titulo">
                     {object.titulo}
                   </Card.Title>
-                  <Card.Text className="card-link-subtitulo">
+                  <Card.Text className="gtp-card-link-subtitulo">
                     {object.subtitulo}
                   </Card.Text>
                   <Button
-                    className="card-botao"
+                    className="gtp-card-botao"
                     variant="outline-success"
                     href={object.link}
                     target="_blank"

@@ -65,8 +65,8 @@ const ads = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</p>
-          <p className="subtitulo">
+          <p className="ads-titulo">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</p>
+          <p className="ads-subtitulo">
             40 Vagas no período da Manhã | Informação e Comunicação
           </p>
         </Col>

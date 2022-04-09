@@ -63,7 +63,7 @@ const cipa = () => (
     <Container style={{ marginBottom: "50px", textAlign: "justify" }}>
       <Row>
         <Col md={{ span: 12 }}>
-          <p>
+          <p className="cipa-p">
             A CIPA é formada pelos próprios funcionários e professores, com o
             objetivo de prevenir acidentes e doenças decorrentes do trabalho.
           </p>
@@ -71,7 +71,7 @@ const cipa = () => (
       </Row>
       <Row style={{ margin: "30px" }}>
         <Col>
-          <p>
+          <p className="cipa-p">
             Membros da CIPA
             <br />
             Fatec São José dos Campos
@@ -83,7 +83,7 @@ const cipa = () => (
 
       <Row style={{ margin: "30px" }}>
         <Col>
-          <h2>Titulares</h2>
+          <h2 className="cipa-h2">Titulares</h2>
         </Col>
       </Row>
 
@@ -106,7 +106,7 @@ const cipa = () => (
 
       <Row style={{ margin: "30px" }}>
         <Col>
-          <h2>Suplentes</h2>
+          <h2 className="cipa-h2">Suplentes</h2>
         </Col>
       </Row>
 
@@ -129,9 +129,9 @@ const cipa = () => (
 
       <Row style={{ margin: "30px" }}>
         <Col>
-          <h2>Significado e competências</h2>
+          <h2 className="cipa-h2">Significado e competências</h2>
           <br></br>
-          <p>
+          <p className="cipa-p">
             CIPA: Comissão Interna de Prevenção de Acidentes, que tem a
             finalidade de prevenir acidentes e doenças decorrentes do trabalho,
             de modo a tornar compatível permanentemente o trabalho com a
@@ -155,27 +155,27 @@ const cipa = () => (
         style={{ marginBottom: "60px", marginTop: "60px", marginLeft: "30px" }}
       >
         <Col>
-          <h2>Dias sem acidentes: 1023</h2>
+          <h2 className="cipa-h2">Dias sem acidentes: 1023</h2>
           <br />
         </Col>
-        <h2>Outras informações</h2>
-        <p>
+        <h2 className="cipa-h2">Outras informações</h2>
+        <p className="cipa-p">
           A Fatec possui uma maca e uma cadeira de rodas próximo à entrada
           principal e uma maca no quarto andar. Em caso de necessidade chamar o
           Ramal 21.
         </p>
-        <h2>
+        <h2 className="cipa-h2">
           Recomendações da CIPA aos colaboradores e frequentadores das
           dependências da Fatec SJC
         </h2>
-        <p>
+        <p className="cipa-p">
           - 09/10/2018 – Estacione seu veículo de ré. Isso evita acidentes e em
           caso de emergência facilita a saída de todos;
           <br />- 09/10/2018 - Não sente nas escadas, não utilize celular nas
           escadas.
         </p>
-        <h2>Contato</h2>
-        <p>
+        <h2 className="cipa-h2">Contato</h2>
+        <p className="cipa-p">
           Caso possua alguma dúvida, sugestão ou crítica, entre em contato pelo
           formulário abaixo. O responsável responderá assim que possível.
           <br />
@@ -251,12 +251,12 @@ const cipa = () => (
         </Form>
       </Col>
       <Row>
-        <h2>Atribuições Legais (NR 5-16)</h2>
-        <h2>
+        <h2 className="cipa-h2">Atribuições Legais (NR 5-16)</h2>
+        <h2 className="cipa-h2">
           Regida pela Norma Regulamentadora Nº5 do Ministério do Trabalho e
           Emprego (NR-5)
         </h2>
-        <p>
+        <p className="cipa-p">
           Participar da implementação e do controle da qualidade das medidas de
           prevenção necessárias, bem como da avaliação das prioridades de ação
           nos locais de trabalho;

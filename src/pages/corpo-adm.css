@@ -1,31 +1,31 @@
-corpo_adm .nome {
+.corpo-adm-nome {
   font-size: 22px;
 }
 
-.area {
+.corpo-adm-area {
   font-size: 18px;
 }
 
-.curso {
+.corpo-adm-curso {
   font-size: 18px;
   text-decoration: none;
 }
 
-h2 {
+.corpo-adm-h2 {
   font-family: "Noto Sans";
   font-weight: bold;
 }
-.imagens {
+.corpo-adm-imagens {
   max-width: 360px;
 }
 
-.link {
+.corpo-adm-link {
   text-decoration: none;
   color: darkblue;
   font-size: 18px;
 }
 
-.titulo {
+.corpo-adm-titulo {
   font-size: 40px;
   color: #005c6e;
   font-family: "Noto Sans";

@@ -26,7 +26,9 @@ const sobre_cursos = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">CURSOS SUPERIORES GRATUITOS DE QUALIDADE!</p>
+          <p className="sbr-titulo">
+            CURSOS SUPERIORES GRATUITOS DE QUALIDADE!
+          </p>
         </Col>
       </Row>
     </Container>
@@ -43,45 +45,45 @@ const sobre_cursos = () => (
     >
       <Row xs={1} md={12} className="g-4">
         <Col>
-          <p className="list-titulo">Cursos oferecidos nesta Unidade</p>
+          <p className="sbr-list-titulo">Cursos oferecidos nesta Unidade</p>
           <ListGroup>
             <ListGroup.Item>
-              <a className="links" href="/ads">
+              <a className="sbr-links" href="/ads">
                 Análise e Desenvolvimento de Sistemas
               </a>
             </ListGroup.Item>
             <ListGroup.Item variant="dark">
-              <a className="links" href="banco">
+              <a className="sbr-links" href="banco">
                 Banco de Dados
               </a>
             </ListGroup.Item>
             <ListGroup.Item>
-              <a className="links" href="/dsm">
+              <a className="sbr-links" href="/dsm">
                 Desenvolvimento de Software Multiplataforma
               </a>
             </ListGroup.Item>
             <ListGroup.Item variant="dark">
-              <a className="links" href="/gtproducaoind">
+              <a className="sbr-links" href="/gtproducaoind">
                 Gestão da Produção Industrial
               </a>
             </ListGroup.Item>
             <ListGroup.Item>
-              <a className="links" href="/logistica">
+              <a className="sbr-links" href="/logistica">
                 Logística
               </a>
             </ListGroup.Item>
             <ListGroup.Item variant="dark">
-              <a className="links" href="/manufatura">
+              <a className="sbr-links" href="/manufatura">
                 Manufatura Avançada
               </a>
             </ListGroup.Item>
             <ListGroup.Item>
-              <a className="links" href="/manut_aero">
+              <a className="sbr-links" href="/manut_aero">
                 Manutenção de Aeronaves
               </a>
             </ListGroup.Item>
             <ListGroup.Item variant="dark">
-              <a className="links" href="/projtestaero">
+              <a className="sbr-links" href="/projtestaero">
                 Projetos de Estruturas Aeronáuticas
               </a>
             </ListGroup.Item>
@@ -96,12 +98,12 @@ const sobre_cursos = () => (
           <CardGroup>
             <Card style={{ textAlign: "right" }}>
               <Card.Body>
-                <Card.Title className="card-titulo">Inscrições</Card.Title>
+                <Card.Title className="sbr-card-titulo">Inscrições</Card.Title>
                 <Card.Text>
                   <a
                     href="https://www.vestibularfatec.com.br/home/"
                     target="_blank"
-                    className="inscricoes"
+                    className="sbr-inscricoes"
                   >
                     www.vestibularfatec.com.br
                   </a>
@@ -110,16 +112,16 @@ const sobre_cursos = () => (
             </Card>
             <Card>
               <Card.Body>
-                <Card.Title className="card-titulo">
+                <Card.Title className="sbr-card-titulo">
                   Guia das profissões tecnológicas
                 </Card.Title>
                 <Card.Text
                   style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
                 >
-                  <p className="card-descricao">
+                  <p className="sbr-card-descricao">
                     Este{" "}
                     <a
-                      className="guia"
+                      className="sbr-guia"
                       href="https://www.cps.sp.gov.br/download/guia_profissoes_tecnologicas.pdf"
                       target="_blank"
                     >
@@ -139,14 +141,14 @@ const sobre_cursos = () => (
           <CardGroup>
             <Card>
               <Card.Body>
-                <Card.Title className="card-titulo">
+                <Card.Title className="sbr-card-titulo">
                   Curso Superior de Tecnologia
                 </Card.Title>
                 <Card.Text
                   style={{ fontFamily: "Noto Sans", fontSize: "23px" }}
                 >
                   <p
-                    className="card-descricao"
+                    className="sbr-card-descricao"
                     style={{
                       fontWeight: "lighter",
                       color: "gray",

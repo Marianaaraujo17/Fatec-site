@@ -65,8 +65,8 @@ const banco = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">BANCO DE DADOS</p>
-          <p className="subtitulo">
+          <p className="banco-titulo">BANCO DE DADOS</p>
+          <p className="banco-subtitulo">
             40 Vagas no período da Noite | Informação e Comunicação
           </p>
         </Col>

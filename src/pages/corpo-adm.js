@@ -200,7 +200,7 @@ const corpo_adm = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">CORPO ADMINISTRATIVO</p>
+          <p className="corpo-adm-titulo">CORPO ADMINISTRATIVO</p>
         </Col>
       </Row>
     </Container>
@@ -217,8 +217,8 @@ const corpo_adm = () => (
           {diretoria.map((obj) => (
             <div>
               <img src={perfil} width={150} height={150}></img>
-              <p className="nome">{obj.nome}</p>
-              <p className="area">{obj.area}</p>
+              <p className="corpo-adm-nome">{obj.nome}</p>
+              <p className="corpo-adm-area">{obj.area}</p>
               <Col>
                 <a style={{ marginRight: "10px" }} href={obj.cv}>
                   <GrNotes></GrNotes>
@@ -234,14 +234,14 @@ const corpo_adm = () => (
       </Row>
       <Row style={{ marginBottom: "40px" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>Assistente do Diretor</h2>
+          <h2 className="corpo-adm-h2">Assistente do Diretor</h2>
         </Col>
         <Col style={{ marginBottom: "20px" }} md={10}>
           {assistente.map((obj) => (
             <div>
               <img src={perfil} width={150} height={150}></img>
-              <p className="nome">{obj.nome}</p>
-              <p className="area">{obj.area}</p>
+              <p className="corpo-adm-nome">{obj.nome}</p>
+              <p className="corpo-adm-area">{obj.area}</p>
               <Col>
                 <a style={{ marginRight: "10px" }} href={obj.cv}>
                   <GrNotes></GrNotes>
@@ -258,7 +258,7 @@ const corpo_adm = () => (
 
       <Row style={{ marginBottom: "40px" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>Coordenação de Cursos</h2>
+          <h2 className="corpo-adm-h2">Coordenação de Cursos</h2>
         </Col>
         <Col md={10}>
           <p>
@@ -277,10 +277,10 @@ const corpo_adm = () => (
                     <img src={perfil} width={150} height={150}></img>
                   </Card.Title>
                   <Card.Text>
-                    <p className="nome">{obj.nome}</p>
+                    <p className="corpo-adm-nome">{obj.nome}</p>
                   </Card.Text>
                   <Card.Text>
-                    <a id="cor" href={obj.ref} className="curso">
+                    <a id="cor" href={obj.ref} className="corpo-adm-curso">
                       {obj.curso}
                     </a>
                   </Card.Text>
@@ -306,7 +306,7 @@ const corpo_adm = () => (
 
       <Row style={{ marginBottom: "40px" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>Diretoria de Serviços Acadêmicos</h2>
+          <h2 className="corpo-adm-h2">Diretoria de Serviços Acadêmicos</h2>
         </Col>
         <Col md={10}>
           <p>
@@ -329,10 +329,10 @@ const corpo_adm = () => (
                     <img src={perfil} width={150} height={150}></img>
                   </Card.Title>
                   <Card.Text>
-                    <p className="nome">{obj.nome}</p>
+                    <p className="corpo-adm-nome">{obj.nome}</p>
                   </Card.Text>
                   <Card.Text>
-                    <p href={obj.ref} className="area">
+                    <p href={obj.ref} className="corpo-adm-area">
                       {obj.area}
                     </p>
                   </Card.Text>
@@ -358,7 +358,9 @@ const corpo_adm = () => (
 
       <Row style={{ marginBottom: "40px" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>Diretoria de Serviços Administrativos</h2>
+          <h2 className="corpo-adm-h2">
+            Diretoria de Serviços Administrativos
+          </h2>
         </Col>
         <Col md={10}>
           <p>
@@ -379,10 +381,10 @@ const corpo_adm = () => (
                     <img src={perfil} width={150} height={150}></img>
                   </Card.Title>
                   <Card.Text>
-                    <p className="nome">{obj.nome}</p>
+                    <p className="corpo-adm-nome">{obj.nome}</p>
                   </Card.Text>
                   <Card.Text>
-                    <p href={obj.ref} className="area">
+                    <p href={obj.ref} className="corpo-adm-area">
                       {obj.area}
                     </p>
                   </Card.Text>
@@ -408,14 +410,14 @@ const corpo_adm = () => (
 
       <Row style={{ marginBottom: "40px" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>Biblioteca</h2>
+          <h2 className="corpo-adm-h2">Biblioteca</h2>
         </Col>
         <Col style={{ marginBottom: "20px" }} md={10}>
           {biblioteca.map((obj) => (
             <div>
               <img src={perfil} width={150} height={150}></img>
-              <p className="nome">{obj.nome}</p>
-              <p className="area">{obj.area}</p>
+              <p className="corpo-adm-nome">{obj.nome}</p>
+              <p className="corpo-adm-area">{obj.area}</p>
               <Col>
                 <a style={{ marginRight: "10px" }} href={obj.cv}>
                   <GrNotes></GrNotes>
@@ -432,14 +434,14 @@ const corpo_adm = () => (
 
       <Row style={{ marginBottom: "40px" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>Departamento de Informática</h2>
+          <h2 className="corpo-adm-h2">Departamento de Informática</h2>
         </Col>
         <Col style={{ marginBottom: "20px" }} md={10}>
           {informatica.map((obj) => (
             <div>
               <img src={perfil} width={150} height={150}></img>
-              <p className="nome">{obj.nome}</p>
-              <p className="area">{obj.area}</p>
+              <p className="corpo-adm-nome">{obj.nome}</p>
+              <p className="corpo-adm-area">{obj.area}</p>
               <Col>
                 <a style={{ marginRight: "10px" }} href={obj.cv}>
                   <GrNotes></GrNotes>
@@ -455,7 +457,7 @@ const corpo_adm = () => (
       </Row>
       <Row style={{ marginBottom: "40px" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>Auxiliar Docente</h2>
+          <h2 className="corpo-adm-h2">Auxiliar Docente</h2>
         </Col>
         <Col md={10}></Col>
         <Row xs={1} md={3} className="g-4">
@@ -467,10 +469,10 @@ const corpo_adm = () => (
                     <img src={perfil} width={150} height={150}></img>
                   </Card.Title>
                   <Card.Text>
-                    <p className="nome">{obj.nome}</p>
+                    <p className="corpo-adm-nome">{obj.nome}</p>
                   </Card.Text>
                   <Card.Text>
-                    <p href={obj.ref} className="area">
+                    <p href={obj.ref} className="corpo-adm-area">
                       {obj.area}
                     </p>
                   </Card.Text>

@@ -66,8 +66,8 @@ const logistica = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">LOGÍSTICA</p>
-          <p className="subtitulo">
+          <p className="log-titulo">LOGÍSTICA</p>
+          <p className="log-subtitulo">
             40 Vagas no período da Manhã e 40 Vagas no período da Noite | Gestão
             e Negócios
           </p>
@@ -83,10 +83,10 @@ const logistica = () => (
               return (
                 <Card style={{ marginRight: "50px" }}>
                   <Card.Body>
-                    <Card.Title className="card-titulo">
+                    <Card.Title className="log-card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text className="card-descricao">
+                    <Card.Text className="log-card-descricao">
                       {object.descricao}
                     </Card.Text>
                   </Card.Body>
@@ -108,14 +108,14 @@ const logistica = () => (
             <Col>
               <Card>
                 <Card.Body>
-                  <Card.Title className="card-link-titulo">
+                  <Card.Title className="log-card-link-titulo">
                     {object.titulo}
                   </Card.Title>
-                  <Card.Text className="card-link-subtitulo">
+                  <Card.Text className="log-card-link-subtitulo">
                     {object.subtitulo}
                   </Card.Text>
                   <Button
-                    className="card-botao"
+                    className="log-card-botao"
                     variant="outline-success"
                     href={object.link}
                     target="_blank"

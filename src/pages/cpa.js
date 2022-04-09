@@ -35,49 +35,49 @@ const cpa = () => (
 
       <Row style={{ marginBottom: "60px", textAlign: "justify" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>CPA – Comissão Própria de Avaliação</h2>
+          <h2 className="cpa-h2">CPA – Comissão Própria de Avaliação</h2>
         </Col>
         <Col md={{ span: 12 }}>
-          <p>
+          <p className="cpa-p">
             A Comissão Própria de Avaliação – CPA – tem como finalidade
             contribuir para a realização dos procedimentos relacionados à
             autoavaliação institucional (avaliação da Fatec). São eles:
           </p>
           <div style={{ marginLeft: "20px" }}>
-            <p>
+            <p className="cpa-p">
               <FaCheck></FaCheck>Conscientizar a comunidade sobre a importância
               da avaliação institucional;
             </p>
-            <p>
+            <p className="cpa-p">
               <FaCheck></FaCheck>Coordenar os processos de avaliação internos;
             </p>
-            <p>
+            <p className="cpa-p">
               <FaCheck></FaCheck>Analisar os resultados dos processos de
               avaliação;
             </p>
-            <p>
+            <p className="cpa-p">
               <FaCheck></FaCheck>Apresentar relatório à Direção da U.E. e à
               CESU;
             </p>
-            <p>
+            <p className="cpa-p">
               <FaCheck></FaCheck>Divulgar à comunidade os trabalhos realizados,
               resultados e propostas;
             </p>
-            <p>
+            <p className="cpa-p">
               <FaCheck></FaCheck>Prestar informações ao INEP.
             </p>
           </div>
-          <p>
+          <p className="cpa-p">
             A CPA é composta por representantes do corpo docente, discente,
             técnico-administrativo e comunidade externa.
           </p>
-          <p>
+          <p className="cpa-p">
             Acesse os documentos abaixo e conheça mais sobre a finalidade da CPA
             a partir dos seus atos regulatórios.
           </p>
-          <text>
+          <text className="cpa-text">
             Mais informações? Escreva para:{" "}
-            <text style={{ backgroundColor: "lightblue" }}>
+            <text className="cpa-text" style={{ backgroundColor: "lightblue" }}>
               cpa.sjc@fatec.sp.gov.br
             </text>
           </text>
@@ -98,15 +98,17 @@ const cpa = () => (
 
       <Row style={{ marginBottom: "60px", textAlign: "justify" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>Em 2016 o Centro Paula Souza instituiu a CPA:</h2>
+          <h2 className="cpa-h2">
+            Em 2016 o Centro Paula Souza instituiu a CPA:
+          </h2>
         </Col>
         <Col md={{ span: 12 }}>
-          <text>
+          <text className="cpa-text">
             A Superintendência do Centro Estadual de Educação Tecnológica Paula
             Souza, no uso de suas atribuições e com fundamento no disposto no
             Artigo 11 da Lei Federal nº 10.861 (
             <a
-              className="link"
+              className="cpa-link"
               target="_blank"
               href="https://drive.google.com/file/d/1Yh4eNu-tAvRS41opnMgmanzuV-PkKBJZ/view"
             >
@@ -116,7 +118,7 @@ const cpa = () => (
             de 2004, e demais disposições normativas aplicáveis, instituiu a CPA
             - Comissão Própria de Avaliação das Fatecs, ao expedir a{" "}
             <a
-              className="link"
+              className="cpa-link"
               target="_blank"
               href="https://drive.google.com/file/d/1kHrJ2LyXQz-2mpaqE-m36Vk_S7Xt8A6Z/view"
             >
@@ -129,12 +131,12 @@ const cpa = () => (
 
       <Row style={{ marginBottom: "60px", textAlign: "justify" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>Atribuições da CPA:</h2>
+          <h2 className="cpa-h2">Atribuições da CPA:</h2>
         </Col>
         <Col style={{ marginBottom: "30px" }} md={{ span: 12 }}>
-          <text style={{ fontWeight: "bold" }}>
+          <text className="cpa-text" style={{ fontWeight: "bold" }}>
             <a
-              className="link"
+              className="cpa-link"
               target="_blank"
               href="https://drive.google.com/file/d/1qBi8IKEvNbiBtmZFPLzuGf1jVpYB61Rl/view"
             >
@@ -149,7 +151,7 @@ const cpa = () => (
           </text>
         </Col>
         <Col md={{ span: 12 }}>
-          <text style={{ fontWeight: "bold" }}>
+          <text className="cpa-text" style={{ fontWeight: "bold" }}>
             <text style={{ fontWeight: "lighter" }}>
               Portaria CEETEPS-GDS Nº 1305, DE 31-5-2016.
             </text>{" "}
@@ -168,10 +170,10 @@ const cpa = () => (
 
       <Row style={{ marginBottom: "60px", textAlign: "justify" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>Cada Fatec deve ter sua CPA:</h2>
+          <h2 className="cpa-h2">Cada Fatec deve ter sua CPA:</h2>
         </Col>
         <Col md={{ span: 12 }}>
-          <text style={{ fontWeight: "bold" }}>
+          <text className="cpa-text" style={{ fontWeight: "bold" }}>
             <text style={{ fontWeight: "lighter" }}>
               Na mesma Portaria CEETEPS-GDS Nº 1305, DE 31-5-2016.
             </text>{" "}
@@ -186,14 +188,14 @@ const cpa = () => (
 
       <Row style={{ marginBottom: "60px", textAlign: "justify" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>A Fatec São José dos Campos tem sua CPA:</h2>
+          <h2 className="cpa-h2">A Fatec São José dos Campos tem sua CPA:</h2>
         </Col>
         <Col md={{ span: 12 }}>
-          <text>
+          <text className="cpa-text">
             Na Fatec São José dos Campos, a CPA foi implantada em 2016 e, em
             2020, uma nova CPA foi constituída e instituída por meio da{" "}
             <a
-              className="link"
+              className="cpa-link"
               target="_blank"
               href="https://drive.google.com/file/d/1nwaeu_PdwR_YULvGQrsshM-mYANEkZWB/view"
             >
@@ -205,10 +207,12 @@ const cpa = () => (
 
       <Row style={{ marginBottom: "60px", textAlign: "justify" }}>
         <Col style={{ marginBottom: "15px" }} md={{ span: 12 }}>
-          <h2>O SINAES - Sistema Nacional de Avaliação do Ensino Superior:</h2>
+          <h2 className="cpa-h2">
+            O SINAES - Sistema Nacional de Avaliação do Ensino Superior:
+          </h2>
         </Col>
         <Col style={{ marginBottom: "30px" }} md={{ span: 12 }}>
-          <text style={{ fontWeight: "bold" }}>
+          <text className="cpa-text" style={{ fontWeight: "bold" }}>
             <text style={{ fontWeight: "lighter" }}>
               Instituído pela Lei Nº 10861, 14/04/2004 e Portaria MEC Nº 2051,
               09/07/2014.
@@ -225,7 +229,7 @@ const cpa = () => (
           </text>
         </Col>
         <Col md={{ span: 12 }}>
-          <text>
+          <text className="cpa-text">
             Importante destacar que o SINAES, em seu Artigo 3º, estabelece dez
             diferentes dimensões institucionais a serem avaliadas. Em
             complemento, a Nota Técnica INEP/DAES/CONAES 065/2014, organiza o

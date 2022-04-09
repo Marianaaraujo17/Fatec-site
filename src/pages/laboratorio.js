@@ -19,7 +19,7 @@ const laboratorio = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">LABORATÓRIOS</p>
+          <p className="lab-titulo">LABORATÓRIOS</p>
         </Col>
       </Row>
     </Container>
@@ -86,7 +86,7 @@ const laboratorio = () => (
           <p className="lab-texto">
             Em qualquer suspeita de contaminação por{" "}
             <a
-              className="link"
+              className="lab-link"
               href="https://pt.wikipedia.org/wiki/Vírus_de_computador"
               target="_blank"
             >

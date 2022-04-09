@@ -1,36 +1,32 @@
-.cipa_titulo{
-    font-family: monospace;
+.cipa_titulo {
+  font-family: monospace;
   font-size: 22px;
 }
 
-#cor{
-    color: red;
-    font-size: 22px;
-  }
+#cor {
+  color: red;
+  font-size: 22px;
+}
 
-p {
-    font-family: monospace;
-    font-size: 22px;
-  }
-  
-  h2 {
-    font-family: monospace;
-    font-weight: bold;
-  }
-  .imagens {
-    max-width: 360px;
-  }
-  
-  .link {
-    text-decoration: none;
-    color: darkblue;
-    font-size: 22px;
-  }
-  
+.cipa-p {
+  font-family: monospace;
+  font-size: 22px;
+}
 
-  .cipa {
-    font-size: 40px;
-    color: black;
-    font-family: "Noto Sans";
-    font-weight: bold;
-  }
+.cipa-h2 {
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 22px;
+}
+
+.cipa {
+  font-size: 40px;
+  color: black;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}

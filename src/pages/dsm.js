@@ -64,8 +64,10 @@ const dsm = () => (
     >
       <Row>
         <Col>
-          <p className="titulo">DESENVOLVIMENTO DE SOFTWARE MULTIPLATAFORMA</p>
-          <p className="subtitulo">
+          <p className="dsm-titulo">
+            DESENVOLVIMENTO DE SOFTWARE MULTIPLATAFORMA
+          </p>
+          <p className="dsm-subtitulo">
             40 Vagas no período da Manhã | Informação e Comunicação
           </p>
         </Col>
@@ -80,10 +82,10 @@ const dsm = () => (
               return (
                 <Card style={{ marginRight: "50px" }}>
                   <Card.Body>
-                    <Card.Title className="card-titulo">
+                    <Card.Title className="dsm-card-titulo">
                       {object.titulo}
                     </Card.Title>
-                    <Card.Text className="card-descricao">
+                    <Card.Text className="dsm-card-descricao">
                       {object.descricao}
                     </Card.Text>
                   </Card.Body>
@@ -101,14 +103,14 @@ const dsm = () => (
             <Col>
               <Card>
                 <Card.Body>
-                  <Card.Title className="card-link-titulo">
+                  <Card.Title className="dsm-card-link-titulo">
                     {object.titulo}
                   </Card.Title>
-                  <Card.Text className="card-link-subtitulo">
+                  <Card.Text className="dsm-card-link-subtitulo">
                     {object.subtitulo}
                   </Card.Text>
                   <Button
-                    className="card-botao"
+                    className="dsm-card-botao"
                     variant="outline-success"
                     href={object.link}
                     target="_blank"

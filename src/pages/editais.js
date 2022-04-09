@@ -16,7 +16,7 @@ const editais = () => (
         marginBottom: "50px",
       }}
     >
-      <p className="titulo">EDITAIS</p>
+      <p className="edit-titulo">EDITAIS</p>
     </Container>
     <Container>
       <Card>
@@ -132,21 +132,31 @@ const editais = () => (
             </a>
           </p>
           <p id="espaco">
-            Verificar a <a
+            Verificar a{" "}
+            <a
               id="cor"
               target="_blank"
               href="https://cesu.cps.sp.gov.br/wp-content/uploads/2021/10/Instrucao-CESU-15_2021-10-29-D.O.pdf"
-            >Instrução CESU nº 15 de 28/10/2021</a>, a <a
-            id="cor"
-            target="_blank"
-            href="https://cesu.cps.sp.gov.br//wp-content/uploads/2019/06/DELIBERACAO_CEETEPS_48_2018-13-12.pdf"
-          >Deliberação
-            CEETEPS 48 de 13/12/2018</a> e a <a
-            id="cor"
-            target="_blank"
-            href="https://cesu.cps.sp.gov.br//wp-content/uploads/2019/06/DELIBERACAO_CEETEPS-52_2019-05-16.pdf"
-          >Deliberação CEETEPS 52 de 09/05/2019</a>,
-            que dispõem sobre procedimentos e critérios para a alteração de
+            >
+              Instrução CESU nº 15 de 28/10/2021
+            </a>
+            , a{" "}
+            <a
+              id="cor"
+              target="_blank"
+              href="https://cesu.cps.sp.gov.br//wp-content/uploads/2019/06/DELIBERACAO_CEETEPS_48_2018-13-12.pdf"
+            >
+              Deliberação CEETEPS 48 de 13/12/2018
+            </a>{" "}
+            e a{" "}
+            <a
+              id="cor"
+              target="_blank"
+              href="https://cesu.cps.sp.gov.br//wp-content/uploads/2019/06/DELIBERACAO_CEETEPS-52_2019-05-16.pdf"
+            >
+              Deliberação CEETEPS 52 de 09/05/2019
+            </a>
+            , que dispõem sobre procedimentos e critérios para a alteração de
             carga horária de docentes a partir do 1º semestre de 2022.
           </p>
         </Row>

@@ -1,4 +1,4 @@
-.titulo {
+.lab-titulo {
   font-size: 40px;
   color: #005c6e;
   font-family: "Noto Sans";
@@ -16,7 +16,7 @@
   font-size: 22px;
 }
 
-.link {
+.lab-link {
   text-decoration: none;
   font-size: 22px;
   font-family: Cambria;
