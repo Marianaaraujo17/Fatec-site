@@ -111,7 +111,10 @@ const Menu = () => {
                   <a href="/aerodesign"> Aerodesign </a>
                 </li>
                 <li>
-                  <a href="/agencia"> Agência Inova Paula Souza </a>
+                  <a target="_blank" href="https://inova.cps.sp.gov.br/">
+                    {" "}
+                    Agência Inova Paula Souza{" "}
+                  </a>
                 </li>
                 <li>
                   <a href="/api"> Aprendizagem por Projetos Integrados </a>

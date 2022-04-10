@@ -32,7 +32,6 @@ import sobre_cursos from "../pages/sobre-cursos";
 import vestibular from "../pages/vestibular";
 
 import aerodesign from "../pages/aerodesign";
-import inova_paula_souza from "../pages/inova_paula_souza";
 import api from "../pages/api";
 import baja from "../pages/baja";
 import cimatech from "../pages/cimatech";
@@ -93,7 +92,6 @@ const Routes = () => (
     <Route exact path="/vestibular" component={vestibular} />
 
     <Route exact path="/aerodesign" component={aerodesign} />
-    <Route exact path="/agencia" component={inova_paula_souza} />
     <Route exact path="/api" component={api} />
     <Route exact path="/baja" component={baja} />
     <Route exact path="/cadi" component={cadi} />
