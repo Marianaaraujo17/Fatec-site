@@ -126,10 +126,19 @@ const Menu = () => {
                   <a href="/cadi"> CADI </a>
                 </li>
                 <li>
-                  <a href="/cimatech"> CIMATech </a>
+                  <a target="_blank" href="http://www.cimatech.com.br">
+                    {" "}
+                    CIMATech{" "}
+                  </a>
                 </li>
                 <li>
-                  <a href="/inovadores"> Escola de Inovadores </a>
+                  <a
+                    target="_blank"
+                    href="https://inova.cps.sp.gov.br/escola-de-inovadores/"
+                  >
+                    {" "}
+                    Escola de Inovadores{" "}
+                  </a>
                 </li>
                 <li>
                   <a href="/business"> Fatec Business Mentoring </a>
@@ -138,7 +147,10 @@ const Menu = () => {
                   <a href="/hackatruck"> HACKaTruck </a>
                 </li>
                 <li>
-                  <a href="/nucleo"> Núcleo de Relações Internacionais </a>
+                  <a target="_blank" href="https://nrifatec.wordpress.com">
+                    {" "}
+                    Núcleo de Relações Internacionais{" "}
+                  </a>
                 </li>
                 <li>
                   <a href="/vestec"> Vestec </a>

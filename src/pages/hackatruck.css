@@ -1,0 +1,44 @@
+.hack-titulo {
+  font-size: 40px;
+  color: #005c6e;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+
+.hack-p {
+  font-family: Cambria;
+  font-size: 22px;
+}
+
+.hack-h2 {
+  font-family: Cambria;
+  font-weight: bold;
+}
+.hack-imagens {
+  max-width: 360px;
+}
+
+.hack-link {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 22px;
+}
+
+.hack-a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.hack-a:hover {
+  color: initial;
+}
+
+.hack-cor {
+  color: crimson;
+  font-weight: lighter;
+}
+
+.hack-cor:hover {
+  color: black;
+}

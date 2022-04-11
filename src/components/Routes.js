@@ -34,7 +34,6 @@ import vestibular from "../pages/vestibular";
 import aerodesign from "../pages/aerodesign";
 import api from "../pages/api";
 import baja from "../pages/baja";
-import cimatech from "../pages/cimatech";
 import escola_inovadores from "../pages/escola_inovadores";
 import business_mentoring from "../pages/business_mentoring";
 import hackatruck from "../pages/hackatruck";
@@ -95,7 +94,6 @@ const Routes = () => (
     <Route exact path="/api" component={api} />
     <Route exact path="/baja" component={baja} />
     <Route exact path="/cadi" component={cadi} />
-    <Route exact path="/cimatech" component={cimatech} />
     <Route exact path="/inovadores" component={escola_inovadores} />
     <Route exact path="/business" component={business_mentoring} />
     <Route exact path="/hackatruck" component={hackatruck} />

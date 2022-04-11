@@ -1,0 +1,46 @@
+.bsn-titulo {
+  font-size: 40px;
+  color: #005c6e;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+
+.bsn-p {
+  font-family: Cambria;
+  font-size: 22px;
+}
+
+.bsn-h2 {
+  font-family: Cambria;
+  font-weight: bold;
+}
+.bsn-imagens {
+  max-width: 360px;
+  border: 0;
+}
+
+.bsn-link {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 22px;
+}
+
+.bsn-a {
+  text-decoration: none;
+  font-family: Cambria;
+  font-size: 20px;
+  color: crimson;
+}
+
+.bsn-a:hover {
+  color: initial;
+}
+
+.bsn-cor {
+  color: crimson;
+  font-weight: lighter;
+}
+
+.bsn-cor:hover {
+  color: black;
+}

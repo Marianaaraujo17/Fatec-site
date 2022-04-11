@@ -14,7 +14,7 @@ import {
 import ReCAPTCHA from "react-google-recaptcha";
 import logo_cipa from "../components/images/CIPA.png";
 import perfil from "../components/images/docentes/profile.png";
-import "./cadi.css";
+import "./CIPA.css";
 
 const titulares = [
   {
