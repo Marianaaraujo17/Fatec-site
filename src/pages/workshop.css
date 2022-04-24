@@ -1,0 +1,30 @@
+.workshop-titulo{
+    font-size: 40px;
+  color: #005c6e;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+
+.workshop-p{
+    font-family: Cambria;
+  font-size: 22px;
+}
+
+.workshop-subtitulo{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.workshop-imagens {
+    max-width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #cor2 {
+    color: #8B0000;
+    font-size: 22px;
+    text-decoration: none;
+  }
