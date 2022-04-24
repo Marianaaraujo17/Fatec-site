@@ -3,6 +3,7 @@ import { Card, CardGroup, Container, Row, Col, Table } from "react-bootstrap";
 import megazord from "../components/images/2017_logo_megazord.png";
 import aerodesignn from "../components/images/2017_logo_aerodesign.png";
 import "./aerodesign.css";
+import Footer from "../components/footer";
 
 import App from "../containers/App";
 
@@ -146,6 +147,7 @@ const aerodesign = () => (
         </Col>
       </Row>
     </Container>
+    <Footer />
   </App>
 );
 
