@@ -164,7 +164,12 @@ const Menu = () => {
               <a href="#">ÁREA DO ALUNO</a>
               <ul>
                 <li>
-                  <a href="/calendario">Calendário Acadêmico</a>
+                  <a
+                    target="_blank"
+                    href="https://fatecsjc-prd.azurewebsites.net/downloads/calendario/calendario_2022-1.pdf"
+                  >
+                    Calendário Acadêmico
+                  </a>
                 </li>
                 <li>
                   <a href="/email">Email Institucional</a>
@@ -202,22 +207,34 @@ const Menu = () => {
               <a href="#">ACESSAR</a>
               <ul>
                 <li>
-                  <a href="https://siga.cps.sp.gov.br/aluno/login.aspx">
+                  <a
+                    target="_blank"
+                    href="https://siga.cps.sp.gov.br/aluno/login.aspx"
+                  >
                     SIGA (Alunos)
                   </a>
                 </li>
                 <li>
-                  <a href="https://siga.cps.sp.gov.br/fatec/login.aspx">
+                  <a
+                    target="_blank"
+                    href="https://siga.cps.sp.gov.br/fatec/login.aspx"
+                  >
                     SIGA (Docentes)
                   </a>
                 </li>
                 <li>
-                  <a href="http://www.fatec.sp.gov.br/view/Default.aspx">
+                  <a
+                    target="_blank"
+                    href="http://www.fatec.sp.gov.br/view/Default.aspx"
+                  >
                     Email
                   </a>
                 </li>
                 <li>
-                  <a href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=5e3ce6c0-2b1f-4285-8d4b-75ee78787346&redirect_uri=https%3A%2F%2Fteams.microsoft.com%2Fgo&state=eyJpZCI6IjI0NTBmMTRiLTZkZmItNDkwNy1hM2ZlLTFlMzE2NWVhZDRmNCIsInRzIjoxNjM4MzY5MDU4LCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=aca8ee0c-e2cc-4a12-b216-5d215dd1995a&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=1.3.4&client-request-id=cd4761a2-6270-4661-950c-bd374a3f818c&response_mode=fragment&sso_reload=true">
+                  <a
+                    target="_blank"
+                    href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=5e3ce6c0-2b1f-4285-8d4b-75ee78787346&redirect_uri=https%3A%2F%2Fteams.microsoft.com%2Fgo&state=eyJpZCI6IjI0NTBmMTRiLTZkZmItNDkwNy1hM2ZlLTFlMzE2NWVhZDRmNCIsInRzIjoxNjM4MzY5MDU4LCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=aca8ee0c-e2cc-4a12-b216-5d215dd1995a&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=1.3.4&client-request-id=cd4761a2-6270-4661-950c-bd374a3f818c&response_mode=fragment&sso_reload=true"
+                  >
                     Teams
                   </a>
                 </li>

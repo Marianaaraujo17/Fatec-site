@@ -1,0 +1,26 @@
+.api-titulo {
+    font-size: 40px;
+    color: #005c6e;
+    font-family: "Noto Sans";
+    font-weight: bold;
+  }
+
+
+.api-h2 {
+    font-family: monospace;
+    font-weight: bold;
+  }
+
+  .api-p {
+    font-family: monospace;
+    font-size: 22px;
+  }
+
+  #cor {
+    color: red;
+    font-size: 22px;
+  }
+
+  #espaco {
+    margin-bottom: 5%;
+  }
