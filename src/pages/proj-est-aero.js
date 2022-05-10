@@ -46,7 +46,7 @@ const links = [
   {
     titulo: "Docentes",
     subtitulo: "",
-    link: "",
+    link: "/docentes-pea",
     botao: "Clique aqui para visualizar a lista de docentes.",
   },
 ];

@@ -11,4 +11,17 @@
   text-decoration: none;
   color: black;
   font-family: Cambria;
+  font-weight: 500;
+}
+
+.doc_card {
+  max-width: 300px;
+  text-align: center;
+  font-size: 20px;
+  border-width: 0px;
+  font-family: Cambria;
+}
+
+.doc_card:hover {
+  color: crimson;
 }

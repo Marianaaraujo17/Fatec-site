@@ -47,7 +47,7 @@ const links = [
   {
     titulo: "Docentes",
     subtitulo: "",
-    link: "",
+    link: "/docentes-logistica",
     botao: "Clique aqui para visualizar a lista de docentes.",
   },
 ];

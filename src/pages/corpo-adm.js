@@ -10,6 +10,20 @@ import logo_api from "../components/images/logo_api.png";
 import foto_parque from "../components/images/foto_parque_tecnologico_sjc.png";
 import foto_cadi from "../components/images/foto_cadi_0001.jpg";
 import perfil from "../components/images/docentes/profile.png";
+import tozi from "../components/images/administrativo/tozi.png";
+import sabha from "../components/images/docentes/fabiano_sabha_walczak.jpg";
+import walmir from "../components/images/docentes/jose_walmir.png";
+import arakaki from "../components/images/docentes/reinaldo_gen_ichiro_arakaki.jpg";
+import roque from "../components/images/docentes/roque_antonio_de_moura.jpg";
+import reinaldo_fagundes from "../components/images/docentes/reinaldo_fagundes.png";
+import viviane from "../components/images/docentes/viviane_ribeiro.png";
+import felix from "../components/images/docentes/felix_arlindo.png";
+import carlos_lineu from "../components/images/docentes/carlos_lineu_de_faria_e_alves.png";
+import erick from "../components/images/administrativo/erick_dos_santos_cristovao.jpg";
+import luana from "../components/images/administrativo/luana_rezende_de_souza_moreira.jpg";
+import daniel from "../components/images/administrativo/daniel_reinoso_morais.jpg";
+import claudinei from "../components/images/administrativo/claudinei_paulista_de_paula.jpg";
+
 import "./corpo-adm.css";
 import { GrNotes } from "react-icons/gr";
 import { AiOutlineMail } from "react-icons/ai";
@@ -18,7 +32,7 @@ const diretoria = [
   {
     nome: "Luiz Antônio Tozi",
     area: "Diretor da Unidade",
-    imagem: { perfil },
+    imagem: tozi,
     cv: "http://lattes.cnpq.br/6282935022782310",
     email: "f146.diretoria@fatec.sp.gov.br",
   },
@@ -28,7 +42,7 @@ const assistente = [
   {
     nome: "Luciana de Abreu Aquino",
     area: "Assistente Técnico / Administrativo I",
-    imagem: { perfil },
+    imagem: perfil,
     cv: "http://lattes.cnpq.br/6282935022782310",
     email: "luciana.aquino@fatec.sp.gov.br",
   },
@@ -38,7 +52,7 @@ const coordenacao = [
   {
     nome: "Fabiano Sabha Walczak",
     curso: "Análise e Desenvolvimento de Sistemas",
-    imagem: { perfil },
+    imagem: sabha,
     cv: "http://lattes.cnpq.br/4250738143383384",
     email: "f146.adssjc@fatec.sp.gov.br",
     ref: "/ads",
@@ -46,7 +60,7 @@ const coordenacao = [
   {
     nome: "José Walmir Gonçalves Duque",
     curso: "Banco de Dados",
-    imagem: { perfil },
+    imagem: walmir,
     cv: "http://lattes.cnpq.br/4678097512178887",
     email: "f146.bdsjc@fatec.sp.gov.br",
     ref: "/banco",
@@ -54,42 +68,42 @@ const coordenacao = [
   {
     nome: "Reinaldo Gen Ichiro Arakaki",
     curso: "Desenvolvimento de Software Multiplataforma",
-    imagem: { perfil },
+    imagem: arakaki,
     cv: "http://lattes.cnpq.br/2075406788034578",
     email: "f146.dsmsjc@fatec.sp.gov.br",
   },
   {
     nome: "Roque Antônio de Moura",
     curso: "Gestão da Produção Industrial",
-    imagem: { perfil },
+    imagem: roque,
     cv: "http://lattes.cnpq.br/3410759923244537",
     email: "gpi.sjc@fatec.sp.gov.br",
   },
   {
     nome: "Reinaldo Fagundes dos Santos",
     curso: "Logística",
-    imagem: { perfil },
+    imagem: reinaldo_fagundes,
     cv: "http://lattes.cnpq.br/4671561926234240",
     email: "f146.logisticasjc@fatec.sp.gov.br",
   },
   {
     nome: "Viviane Ribeiro de Siqueira",
     curso: "Manufatura Avançada",
-    imagem: { perfil },
+    imagem: viviane,
     cv: "http://lattes.cnpq.br/3319116115200375",
     email: "f146.manufatura@fatec.sp.gov.br",
   },
   {
     nome: "Felix Arlindo Strottmann",
     curso: "Manutenção de Aeronaves",
-    imagem: { perfil },
+    imagem: felix,
     cv: "http://lattes.cnpq.br/8478784526842018",
     email: "f146.manutencao@fatec.sp.gov.br",
   },
   {
     nome: "Carlos Lineu de Faria e Alves",
     curso: "Projetos de Estruturas Aeronáuticas",
-    imagem: { perfil },
+    imagem: carlos_lineu,
     cv: "http://lattes.cnpq.br/1659520862242303",
     email: "f146.peasjc@fatec.sp.gov.br",
   },
@@ -99,19 +113,19 @@ const diretoria_academica = [
   {
     nome: "Erick dos Santos Cristóvão",
     area: "Diretor de Serviços Acadêmicos",
-    imagem: { perfil },
+    imagem: erick,
     email: "f146.secretaria@fatec.sp.gov.br",
   },
   {
     nome: "Luana Rezende de Souza Moreira",
     area: "Assistente Administrativo",
-    imagem: { perfil },
+    imagem: luana,
     email: "luana.moreira@fatec.sp.gov.br",
   },
   {
     nome: "Benedito Vitorino Júnior",
     area: "Agente Técnico e Administrativo",
-    imagem: { perfil },
+    imagem: perfil,
     email: "benedito.vitorino@fatec.sp.gov.br",
   },
 ];
@@ -141,7 +155,7 @@ const biblioteca = [
   {
     nome: "Daniel Reinoso de Morais",
     area: "Agente Técnico e Administrativo",
-    imagem: { perfil },
+    imagem: daniel,
     email: "daniel.morais01@fatec.sp.gov.br",
   },
 ];
@@ -159,28 +173,28 @@ const auxiliar_docente = [
   {
     nome: "Claudinei Paulista de Paula",
     area: "Auxiliar Docente (Aeronáutica)",
-    imagem: { perfil },
+    imagem: claudinei,
     cv: "http://lattes.cnpq.br/0108907754791325",
     email: "claudinei.paulista@fatec.sp.gov.br",
   },
   {
     nome: "Cristiano Júlio Barreira",
     area: "Auxiliar Docente (Informática)",
-    imagem: { perfil },
+    imagem: perfil,
     cv: "",
     email: "cristiano.barreira@fatec.sp.gov.br",
   },
   {
     nome: "Régis Guimarães Silva",
     area: "Auxiliar Docente (Aeronáutica)",
-    imagem: { perfil },
+    imagem: perfil,
     cv: "",
     email: "regis.guimaraes@fatec.sp.gov.br",
   },
   {
     nome: "Renato de Menezes Quintino",
     area: "Auxiliar Docente (Aeronáutica)",
-    imagem: { perfil },
+    imagem: perfil,
     cv: "",
     email: "renato.quintino@fatec.sp.gov.br",
   },
@@ -216,7 +230,7 @@ const corpo_adm = () => (
           </p>
           {diretoria.map((obj) => (
             <div>
-              <img src={perfil} width={150} height={150}></img>
+              <img src={obj.imagem} width={150} height={150}></img>
               <p className="corpo-adm-nome">{obj.nome}</p>
               <p className="corpo-adm-area">{obj.area}</p>
               <Col>
@@ -274,7 +288,7 @@ const corpo_adm = () => (
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    <img src={perfil} width={150} height={150}></img>
+                    <img src={obj.imagem} width={150} height={150}></img>
                   </Card.Title>
                   <Card.Text>
                     <p className="corpo-adm-nome">{obj.nome}</p>
@@ -326,7 +340,7 @@ const corpo_adm = () => (
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    <img src={perfil} width={150} height={150}></img>
+                    <img src={obj.imagem} width={150} height={150}></img>
                   </Card.Title>
                   <Card.Text>
                     <p className="corpo-adm-nome">{obj.nome}</p>
@@ -415,7 +429,7 @@ const corpo_adm = () => (
         <Col style={{ marginBottom: "20px" }} md={10}>
           {biblioteca.map((obj) => (
             <div>
-              <img src={perfil} width={150} height={150}></img>
+              <img src={obj.imagem} width={150} height={150}></img>
               <p className="corpo-adm-nome">{obj.nome}</p>
               <p className="corpo-adm-area">{obj.area}</p>
               <Col>
@@ -466,7 +480,7 @@ const corpo_adm = () => (
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    <img src={perfil} width={150} height={150}></img>
+                    <img src={obj.imagem} width={150} height={150}></img>
                   </Card.Title>
                   <Card.Text>
                     <p className="corpo-adm-nome">{obj.nome}</p>
