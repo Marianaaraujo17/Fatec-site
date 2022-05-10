@@ -1,0 +1,20 @@
+.aula-titulo{
+    font-size: 40px;
+    color: #005c6e;
+    font-family: "Noto Sans";
+    font-weight: bold;
+}
+
+.aula-p{
+    font-family: Cambria;
+    font-size: 22px;
+}
+
+.aulas-imagens{
+    max-width: 700px;
+}
+
+.aula-subtitulo{
+    font-size: 35px;
+    font-weight: bold;
+}

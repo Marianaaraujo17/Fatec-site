@@ -1,0 +1,20 @@
+.onibus-titulo{
+    font-size: 40px;
+    color: #005c6e;
+    font-family: "Noto Sans";
+    font-weight: bold;
+}
+
+.onibus-subtitulo{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.onibus-p{
+    font-family: Cambria;
+    font-size: 22px;
+}
+
+.onibus-imagens{
+    max-width: 700px;
+}
