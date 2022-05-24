@@ -14,6 +14,7 @@ const concurso = () => (
         alignItems: "center",
         textAlign: "center",
         marginBottom: "50px",
+        marginTop: "20px",
       }}
     >
       <p className="titulo">CONCURSO PÚBLICO</p>

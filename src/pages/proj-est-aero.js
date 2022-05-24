@@ -61,6 +61,7 @@ const proj_est_aero = () => (
         alignItems: "center",
         textAlign: "center",
         marginBottom: "50px",
+        marginTop: "20px",
       }}
     >
       <Row>

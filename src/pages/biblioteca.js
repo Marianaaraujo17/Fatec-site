@@ -14,6 +14,7 @@ const biblioteca = () => (
         alignItems: "center",
         textAlign: "center",
         marginBottom: "50px",
+        marginTop: "20px",
       }}
     >
       <p className="bbl-titulo">BIBLIOTECA</p>

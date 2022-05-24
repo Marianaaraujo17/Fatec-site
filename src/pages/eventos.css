@@ -1,0 +1,13 @@
+.eventos-titulo{
+    font-size: 40px;
+    color: #005c6e;
+    font-family: "Noto Sans";
+    font-weight: bold;
+}
+
+
+iframe{
+    border: solid 1px #777;
+    width: 800px;
+    height: 600px;
+}

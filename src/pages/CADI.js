@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/footer";
 import App from "../containers/App";
-import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import logo_cadi from "../components/images/logo_cadi.jpg";
 import logo_fatec from "../components/images/logo.png";
 import logo_parque from "../components/images/logo_parque_tecnologico_sjc.png";
@@ -21,6 +21,7 @@ const cadi = () => (
         alignItems: "center",
         textAlign: "center",
         marginBottom: "50px",
+        marginTop: "20px",
       }}
     >
       <Row>

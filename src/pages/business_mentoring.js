@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/footer";
 import App from "../containers/App";
-import { Card, Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import logo_fbm from "../components/images/logo-fbm.png";
 import cecompi from "../components/images/cecompi.png";
 import cna from "../components/images/cna.png";
@@ -69,6 +69,7 @@ const business_mentoring = () => (
         alignItems: "center",
         textAlign: "center",
         marginBottom: "50px",
+        marginTop: "20px",
       }}
     >
       <Row>

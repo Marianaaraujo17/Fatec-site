@@ -16,7 +16,7 @@
   font-weight: bold;
 }
 .gtp-card-texto {
-  font-family: "Noto Sans";
+  font-family: "Cambria";
   font-size: 23px;
 }
 
@@ -41,6 +41,6 @@
 
 .gtp-card-descricao {
   text-align: justify;
-  font-family: "Noto Sans";
+  font-family: "Cambria";
   font-size: 23px;
 }

@@ -22,6 +22,7 @@ const docentes = () => (
         alignItems: "center",
         textAlign: "center",
         marginBottom: "50px",
+        marginTop: "20px",
       }}
     >
       <Row>

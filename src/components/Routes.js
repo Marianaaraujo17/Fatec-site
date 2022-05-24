@@ -39,7 +39,6 @@ import business_mentoring from "../pages/business_mentoring";
 import hackatruck from "../pages/hackatruck";
 import vestec from "../pages/vestec";
 import workshop from "../pages/workshop";
-import calendario from "../pages/calendario";
 import email_institucional from "../pages/email_institucional";
 import diplomados from "../pages/diplomados";
 import horarios_aula from "../pages/horarios_aula";
@@ -100,7 +99,6 @@ const Routes = () => (
     <Route exact path="/vestec" component={vestec} />
     <Route exact path="/workshop" component={workshop} />
 
-    <Route exact path="/calendario" component={calendario} />
     <Route exact path="/email" component={email_institucional} />
     <Route exact path="/diplomados" component={diplomados} />
     <Route exact path="/horarios_aula" component={horarios_aula} />

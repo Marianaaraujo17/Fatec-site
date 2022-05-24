@@ -16,7 +16,7 @@
   font-weight: bold;
 }
 .mnft-card-texto {
-  font-family: "Noto Sans";
+  font-family: "Cambria";
   font-size: 23px;
 }
 
@@ -40,8 +40,7 @@
 }
 
 #fonte {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Cambria;
   text-decoration: none;
   color: #005c6e;
   font-size: 16px;
@@ -49,6 +48,6 @@
 
 .mnft-card-descricao {
   text-align: justify;
-  font-family: "Noto Sans";
+  font-family: "Cambria";
   font-size: 23px;
 }

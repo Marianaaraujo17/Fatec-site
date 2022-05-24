@@ -7,7 +7,6 @@ import {
   Container,
   Row,
   Col,
-  Button,
   ListGroup,
 } from "react-bootstrap";
 import "./sobre-cursos.css";
@@ -22,6 +21,7 @@ const sobre_cursos = () => (
         alignItems: "center",
         textAlign: "center",
         marginBottom: "50px",
+        marginTop: "20px",
       }}
     >
       <Row>

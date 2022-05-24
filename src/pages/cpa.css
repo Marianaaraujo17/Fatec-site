@@ -1,15 +1,15 @@
 .cpa-p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Cambria";
   font-size: 22px;
 }
 
 .cpa-text {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Cambria";
   font-size: 22px;
 }
 
 .cpa-h2 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Cambria";
   font-weight: bold;
 }
 .imagens {
@@ -20,5 +20,5 @@
   text-decoration: none;
   color: darkblue;
   font-size: 22px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Cambria";
 }

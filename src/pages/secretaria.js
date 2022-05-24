@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/footer";
 import App from "../containers/App";
-import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";
+import { Card, Container, Row } from "react-bootstrap";
 import "./secretaria.css";
 import tabelaDocumentos from "../components/images/tabelaDocumentos.png";
 
@@ -15,6 +15,7 @@ const secretaria = () => (
         alignItems: "center",
         textAlign: "center",
         marginBottom: "50px",
+        marginTop: "20px",
       }}
     >
       <p className="sct-titulo">SECRETARIA ACADÊMICA</p>

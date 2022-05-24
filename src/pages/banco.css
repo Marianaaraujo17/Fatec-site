@@ -16,7 +16,7 @@
   font-weight: bold;
 }
 .card-texto {
-  font-family: "Noto Sans";
+  font-family: "Cambria";
   font-size: 23px;
 }
 
@@ -36,11 +36,11 @@
 }
 
 .card-botao {
-  font-family: "Lucida Sans";
+  font-family: "Cambria";
 }
 
 .card-descricao {
   text-align: justify;
-  font-family: "Noto Sans";
+  font-family: "Cambria";
   font-size: 23px;
 }

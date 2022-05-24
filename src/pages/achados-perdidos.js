@@ -3,7 +3,6 @@ import Footer from "../components/footer";
 import App from "../containers/App";
 import {
   Card,
-  CardGroup,
   Container,
   Row,
   Col,
@@ -13,7 +12,6 @@ import {
 } from "react-bootstrap";
 import "./achados-perdidos.css";
 import ReCAPTCHA from "react-google-recaptcha";
-import { BiLinkExternal } from "react-icons/bi";
 
 function onChange(value) {
   console.log("Captcha value:", value);
@@ -28,6 +26,7 @@ const achados = () => (
         alignItems: "center",
         textAlign: "center",
         marginBottom: "50px",
+        marginTop: "20px",
       }}
     >
       <Row>
