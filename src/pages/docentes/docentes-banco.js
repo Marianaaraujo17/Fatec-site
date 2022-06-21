@@ -204,7 +204,13 @@ const doc_banco = () => (
               <Card className="doc_card">
                 <Card.Body>
                   <Card.Title>
-                    <Image fluid src={obj.img} width={150} height={150}></Image>
+                    <Image
+                      rounded
+                      roundedCircle
+                      src={obj.img}
+                      width={150}
+                      height={150}
+                    ></Image>
                   </Card.Title>
                   <Card.Text>{obj.nome}</Card.Text>
                 </Card.Body>

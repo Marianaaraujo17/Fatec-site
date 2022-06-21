@@ -7,7 +7,7 @@ import Portal from "../pages/Portal";
 import sobre from "../pages/sobre";
 import achados from "../pages/achados-perdidos";
 import biblioteca from "../pages/biblioteca";
-import cadi from "../pages/cadi";
+import cadi from "../pages/CADI";
 import cipa from "../pages/CIPA";
 import calendar_event from "../pages/calendario-eventos";
 import concurso from "../pages/concurso";
@@ -36,7 +36,6 @@ import api from "../pages/api";
 import baja from "../pages/baja";
 import escola_inovadores from "../pages/escola_inovadores";
 import business_mentoring from "../pages/business_mentoring";
-import hackatruck from "../pages/hackatruck";
 import vestec from "../pages/vestec";
 import workshop from "../pages/workshop";
 import email_institucional from "../pages/email_institucional";
@@ -59,6 +58,8 @@ import doc_gestao from "../pages/docentes/docentes-gestao";
 import doc_manufatura from "../pages/docentes/docentes-manufatura";
 import doc_manut from "../pages/docentes/docentes-manut";
 
+import geral_projetos from "../pages/geral/geral_projetos";
+import geral_alunos from "../pages/geral/geral_alunos";
 const Routes = () => (
   <BrowserRouter>
     <Route exact path="/" component={Home} />
@@ -95,7 +96,6 @@ const Routes = () => (
     <Route exact path="/cadi" component={cadi} />
     <Route exact path="/inovadores" component={escola_inovadores} />
     <Route exact path="/business" component={business_mentoring} />
-    <Route exact path="/hackatruck" component={hackatruck} />
     <Route exact path="/vestec" component={vestec} />
     <Route exact path="/workshop" component={workshop} />
 
@@ -118,6 +118,9 @@ const Routes = () => (
     <Route exact path="/docentes-manut" component={doc_manut} />
     <Route exact path="/docentes-manufatura" component={doc_manufatura} />
     <Route exact path="/docentes-gestao" component={doc_gestao} />
+
+    <Route exact path="/geral_projetos" component={geral_projetos} />
+    <Route exact path="/geral_alunos" component={geral_alunos} />
 
     <Route exact path="/footer" component={Footer} />
   </BrowserRouter>

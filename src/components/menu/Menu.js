@@ -144,9 +144,6 @@ const Menu = () => {
                   <a href="/business"> Fatec Business Mentoring </a>
                 </li>
                 <li>
-                  <a href="/hackatruck"> HACKaTruck </a>
-                </li>
-                <li>
                   <a target="_blank" href="https://nrifatec.wordpress.com">
                     {" "}
                     Núcleo de Relações Internacionais{" "}
@@ -247,7 +244,11 @@ const Menu = () => {
           <img id="predio" src={predio} />
         </Col>
         <div id="submenu">
-          <a id="estilo" href="/vestibular">
+          <a
+            id="estilo"
+            href="https://www.vestibularfatec.com.br/home/"
+            target="_blank"
+          >
             VESTIBULAR
           </a>
           <a id="estilo" href="/secretaria">

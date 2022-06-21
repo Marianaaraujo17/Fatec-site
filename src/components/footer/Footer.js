@@ -28,13 +28,13 @@ const Footer = () => (
           <a id="palavra" href="/sobre">
             Institucional
           </a>
-          <a id="palavra" href="#">
+          <a id="palavra" href="/sobre_cursos">
             Cursos
           </a>
-          <a id="palavra" href="#">
+          <a id="palavra" href="/geral_projetos">
             Projetos
           </a>
-          <a id="palavra" href="#">
+          <a id="palavra" href="/geral_alunos">
             Área do aluno
           </a>
           <a id="palavra" href="/contato">

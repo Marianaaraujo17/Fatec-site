@@ -3,6 +3,13 @@
   font-weight: bold;
 }
 
+.sbr-titulo {
+  font-size: 40px;
+  color: #005c6e;
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+
 .sbr-list-titulo {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 23px;
