@@ -239,10 +239,9 @@ const Menu = () => {
             </li>
           </ul>
         </nav>
-        <Col id="centro">
-          <img id="logo" src={logo} />
+        <div id="centro">
           <img id="predio" src={predio} />
-        </Col>
+        </div>
         <div id="submenu">
           <a
             id="estilo"

@@ -7,7 +7,7 @@ import Portal from "../pages/Portal";
 import sobre from "../pages/sobre";
 import achados from "../pages/achados-perdidos";
 import biblioteca from "../pages/biblioteca";
-import cadi from "../pages/CADI";
+import cadi from "../pages/cadi";
 import cipa from "../pages/CIPA";
 import calendar_event from "../pages/calendario-eventos";
 import concurso from "../pages/concurso";
