@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../components/footer";
 import App from "../containers/App";
 import { Card, Container, Row } from "react-bootstrap";
-import "./biblioteca.css";
+import "./editais.css";
 
 const editais = () => (
   <App>

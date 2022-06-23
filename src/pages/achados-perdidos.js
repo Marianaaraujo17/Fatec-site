@@ -11,7 +11,6 @@ import {
   FloatingLabel,
 } from "react-bootstrap";
 import "./achados-perdidos.css";
-import ReCAPTCHA from "react-google-recaptcha";
 
 function onChange(value) {
   console.log("Captcha value:", value);
@@ -50,68 +49,12 @@ const achados = () => (
                 <a className="ach-link" href="/biblioteca">
                   Biblioteca
                 </a>
-                . Caso não o encontre lá, registre o ocorrido preenchendo o
-                formulário abaixo. Se, posteriormente, ele for localizado,
-                entraremos em contato no e-mail indicado.
+                . Caso não o encontre lá, mande um e-mail para
+                f146.secretaria@fatec.sp.gov.br. Se, posteriormente, ele for
+                localizado, entraremos em contato no e-mail indicado.
               </Card.Text>
             </Card.Body>
           </Card>
-        </Col>
-        <Col md={{ span: 12 }}>
-          <Form>
-            <Row className="mb-3">
-              <Form.Group as={Col} controlId="formGridNome">
-                <FloatingLabel
-                  controlId="floatingInputNome"
-                  label="Nome Completo"
-                  className="mb-3"
-                >
-                  <Form.Control placeholder="Nome" />
-                </FloatingLabel>
-              </Form.Group>
-
-              <Form.Group as={Col} controlId="formGridEmail">
-                <FloatingLabel
-                  controlId="floatingInputEmail"
-                  label="Email para contato"
-                  className="mb-3"
-                >
-                  <Form.Control type="email" placeholder="Email" />
-                </FloatingLabel>
-              </Form.Group>
-            </Row>
-
-            <Form.Group className="mb-3" controlId="formGridObjeto">
-              <FloatingLabel
-                controlId="floatingInputObjeto"
-                label="Objeto perdido"
-                className="mb-3"
-              >
-                <Form.Control placeholder="Objeto" />
-              </FloatingLabel>
-            </Form.Group>
-
-            <Form.Group className="mb-3" controlId="formGridDescricao">
-              <FloatingLabel
-                controlId="floatingTextarea"
-                label="Descrição detalhada do objeto perdido"
-              >
-                <Form.Control
-                  as="textarea"
-                  placeholder="Detalhe o objeto"
-                  style={{ height: "150px" }}
-                />
-              </FloatingLabel>
-            </Form.Group>
-
-            <ReCAPTCHA
-              sitekey="6LffPhAfAAAAAFoPO159F-liEs1OkaM167s5LbtR"
-              onChange={onChange}
-            />
-            <Button variant="primary" type="submit">
-              Submit
-            </Button>
-          </Form>
         </Col>
       </Row>
     </Container>
