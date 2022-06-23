@@ -21,7 +21,7 @@ const secretaria = () => (
       <p className="sct-titulo">SECRETARIA ACADÊMICA</p>
     </Container>
     <Container>
-      <Card>
+      <Card style={{ boxShadow: "0 0 0 0", border: "0 none", outline: "0" }}>
         <Row>
           <p id="subtitulo">Horário de Funcionamento</p>
           <p id="espaco">
