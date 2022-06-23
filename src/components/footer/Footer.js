@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container } from "react-bootstrap";
 import cps from "../images/cps.png";
 import governo from "../images/governo.png";
+import logo from "../images/logo.png";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -16,6 +17,7 @@ const Footer = () => (
   <footer className="app-footer">
     <div id="rodape">
       <Col id="centro">
+        <img id="logo" src={logo} />
         <img id="cps" src={cps} />
         <img id="governo" src={governo} />
       </Col>

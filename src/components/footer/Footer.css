@@ -9,6 +9,15 @@
   margin-left: -40px;
 }
 
+#logo {
+  width: 180px;
+  height: 94px;
+  margin-top: 62px;
+  margin-right: 2rem;
+  margin-left: -2rem;
+}
+
+
 #governo {
   width: 130px;
   height: 84px;

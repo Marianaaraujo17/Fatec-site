@@ -11,7 +11,6 @@ import {
   Button,
   FloatingLabel,
 } from "react-bootstrap";
-import ReCAPTCHA from "react-google-recaptcha";
 import logo_cipa from "../components/images/CIPA.png";
 import perfil from "../components/images/docentes/profile.png";
 import "./CIPA.css";
@@ -178,7 +177,8 @@ const cipa = () => (
         <h2 className="cipa-h2">Contato</h2>
         <p className="cipa-p">
           Caso possua alguma dúvida, sugestão ou crítica, entre em contato pelo
-          formulário abaixo. O responsável responderá assim que possível.
+          e-mail f146.secretaria@fatec.sp.gov.br. O responsável responderá assim
+          que possível.
           <br />
           <a
             id="cor"
@@ -195,62 +195,6 @@ const cipa = () => (
           <mark id="marca">f146cipa@cps.sp.gov.br</mark>
         </p>
       </Row>
-      <Col md={{ span: 12 }}>
-        <Form>
-          <Row className="mb-3">
-            <Form.Group as={Col} controlId="formGridNome">
-              <FloatingLabel
-                controlId="floatingInputNome"
-                label="Nome Completo"
-                className="mb-3"
-              >
-                <Form.Control placeholder="Nome" />
-              </FloatingLabel>
-            </Form.Group>
-
-            <Form.Group as={Col} controlId="formGridEmail">
-              <FloatingLabel
-                controlId="floatingInputEmail"
-                label="Email para contato"
-                className="mb-3"
-              >
-                <Form.Control type="email" placeholder="Email" />
-              </FloatingLabel>
-            </Form.Group>
-          </Row>
-
-          <Form.Group className="mb-3" controlId="formGridObjeto">
-            <FloatingLabel
-              controlId="floatingInputObjeto"
-              label="Objeto perdido"
-              className="mb-3"
-            >
-              <Form.Control placeholder="Objeto" />
-            </FloatingLabel>
-          </Form.Group>
-
-          <Form.Group className="mb-3" controlId="formGridDescricao">
-            <FloatingLabel
-              controlId="floatingTextarea"
-              label="Descrição detalhada do objeto perdido"
-            >
-              <Form.Control
-                as="textarea"
-                placeholder="Detalhe o objeto"
-                style={{ height: "150px" }}
-              />
-            </FloatingLabel>
-          </Form.Group>
-
-          <ReCAPTCHA
-            sitekey="6LffPhAfAAAAAFoPO159F-liEs1OkaM167s5LbtR"
-            onChange={onChange}
-          />
-          <Button variant="primary" type="submit">
-            Submit
-          </Button>
-        </Form>
-      </Col>
       <Row>
         <h2 className="cipa-h2">Atribuições Legais (NR 5-16)</h2>
         <h2 className="cipa-h2">
