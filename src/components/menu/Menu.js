@@ -1,7 +1,7 @@
 import React from "react";
 import "./Menu.css";
 import logo from "../images/logo.png";
-import predio from "../images/predio.png";
+import predio from "../images/DJI_0672.png";
 import { Col } from "react-bootstrap";
 
 const Menu = () => {
