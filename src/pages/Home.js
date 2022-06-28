@@ -1,11 +1,14 @@
 // /src/pages/Home.js
 import React from "react";
 import Footer from "../components/footer";
+import { Container } from "react-bootstrap";
+import Carrossel from "../components/carrossel/carrossel";
 import App from "../containers/App";
 
 const Home = () => (
   <App>
-    <h1>Home</h1>
+    <Carrossel />
+
     <Footer />
   </App>
 );
