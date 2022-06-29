@@ -196,7 +196,7 @@ const Menu = () => {
                   <a href="/Portal">Portal de Oportunidades</a>
                 </li>
                 <li>
-                  <a href="/Portal">Setor de Estágios</a>
+                  <a href="/rematricula">Rematrícula</a>
                 </li>
               </ul>
             </li>
