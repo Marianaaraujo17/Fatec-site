@@ -193,10 +193,10 @@ const Menu = () => {
                   <a href="/passe">Passe Escolar</a>
                 </li>
                 <li>
-                  <a>Portal de Oportunidades</a>
+                  <a href="/portal">Portal de Oportunidades</a>
                 </li>
                 <li>
-                  <a>Setor de Estágios</a>
+                  <a href="/portal">Setor de Estágios</a>
                 </li>
                 <li>
                   <a href="/rematricula">Rematrícula</a>
@@ -256,7 +256,9 @@ const Menu = () => {
           <a id="estilo" href="/secretaria">
             SECRETARIA
           </a>
-          <a id="estilo">ESTÁGIO|VAGAS</a>
+          <a id="estilo" href="/portal">
+            ESTÁGIO|VAGAS
+          </a>
           <a id="estilo" href="/contato">
             CONTATO
           </a>

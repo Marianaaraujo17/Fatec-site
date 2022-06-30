@@ -4,6 +4,7 @@ import vestibular from "../../components/images/carrossel/vestibular_2_2022.png"
 import curso from "../../components/images/carrossel/curso_lh_2022.jpg";
 import fatecult from "../../components/images/carrossel/fatecult.jpg";
 import nube from "../../components/images/carrossel/nube_cursosead.png";
+import CDIO from "../../components/images/carrossel/CDIO_fatecsjc.png";
 import "./carrossel.css";
 function Carrossel() {
   const [index, setIndex] = useState(0);
@@ -88,6 +89,22 @@ function Carrossel() {
               </a>
               <Carousel.Caption>
                 <h3>Nube</h3>
+                <p>Curso EAD</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={5000}>
+              <Image
+                thumbnail
+                width={500}
+                height={300}
+                id="img_carousel"
+                fluid
+                alt=""
+                src={CDIO}
+              />
+
+              <Carousel.Caption>
+                <h3>CDIO</h3>
                 <p>Curso EAD</p>
               </Carousel.Caption>
             </Carousel.Item>

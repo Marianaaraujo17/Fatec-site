@@ -1,0 +1,21 @@
+.portal-p {
+  font-family: Cambria;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#links {
+  text-decoration: none;
+  color: crimson;
+  font-size: 20px;
+  font-family: Cambria;
+  font-weight: lighter;
+}
+
+#cinzento {
+  font-family: Cambria;
+  font-size: 20px;
+  font-weight: lighter;
+  color: gray;
+  opacity: 70%;
+}
