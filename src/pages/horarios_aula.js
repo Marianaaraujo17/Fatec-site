@@ -45,8 +45,142 @@ const horarios_aula = () => (
             alignItems: "center",
           }}
         >
-          <img className="aulas-imagens" src={aulas}></img>
+          <Row>
+            <a id="horario">MANHÃ</a>
+            <Table striped bordered hover>
+              <tbody>
+                <tr>
+                  <td>
+                    <a
+                      id="cor_aulas"
+                      target="_blank"
+                      href="https://fatecsjc-prd.azurewebsites.net/downloads/horarios/2022-1/2022-1_ads_manha.pdf"
+                    >
+                      Análise e Desenvolvimento de Sistemas
+                    </a>
+                  </td>
+                  <td>das 07h10 às 12h35</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      id="cor_aulas"
+                      target="_blank"
+                      href="https://fatecsjc-prd.azurewebsites.net/downloads/horarios/2022-1/2022-1_dsm_manha.pdf"
+                    >
+                      Desenvolvimento de Software Multiplataforma
+                    </a>
+                  </td>
+                  <td>das 07h10 às 12h35</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      id="cor_aulas"
+                      target="_blank"
+                      href="https://fatecsjc-prd.azurewebsites.net/downloads/horarios/2022-1/2022-1_log_manha.pdf"
+                    >
+                      Logística
+                    </a>
+                  </td>
+                  <td>das 08h00 às 12h35</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      id="cor_aulas"
+                      target="_blank"
+                      href="https://fatecsjc-prd.azurewebsites.net/downloads/horarios/2022-1/2022-1_ma_manha.pdf"
+                    >
+                      Manufatura Avançada
+                    </a>
+                  </td>
+                  <td>das 08h00 às 12h35</td>
+                </tr>
+              </tbody>
+            </Table>
+          </Row>
         </Col>
+        <Col
+          md={{ span: 12 }}
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Row>
+            <a id="horario" style={{ marginTop: "40px" }}>
+              NOITE
+            </a>
+            <Table striped bordered hover>
+              <tbody>
+                <tr>
+                  <td>
+                    <a
+                      id="cor_aulas"
+                      target="_blank"
+                      href="https://fatecsjc-prd.azurewebsites.net/downloads/horarios/2022-1/2022-1_bd_noite.pdf"
+                    >
+                      Banco de Dados
+                    </a>
+                  </td>
+                  <td>das 18h45 às 23h05</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      id="cor_aulas"
+                      target="_blank"
+                      href="https://fatecsjc-prd.azurewebsites.net/downloads/horarios/2022-1/2022-1_gpi_noite.pdf"
+                    >
+                      Gestão da Produção Industrial
+                    </a>
+                  </td>
+                  <td>das 18h45 às 23h05</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      id="cor_aulas"
+                      target="_blank"
+                      href="https://fatecsjc-prd.azurewebsites.net/downloads/horarios/2022-1/2022-1_log_noite.pdf"
+                    >
+                      Logística
+                    </a>
+                  </td>
+                  <td>das 18h45 às 23h05</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      id="cor_aulas"
+                      target="_blank"
+                      href="https://fatecsjc-prd.azurewebsites.net/downloads/horarios/2022-1/2022-1_mnt_noite.pdf"
+                    >
+                      Manutenção de Aeronaves
+                    </a>
+                  </td>
+                  <td>das 18h45 às 23h05</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      id="cor_aulas"
+                      target="_blank"
+                      href="https://fatecsjc-prd.azurewebsites.net/downloads/horarios/2022-1/2022-1_pea_noite.pdf"
+                    >
+                      Projetos de Estruturas Aeronáuticas
+                    </a>
+                  </td>
+                  <td>das 18h45 às 23h05</td>
+                </tr>
+              </tbody>
+            </Table>
+          </Row>
+        </Col>
+
         <Col
           md={{ span: 12 }}
           style={{ marginBottom: "40px", marginTop: "50px" }}

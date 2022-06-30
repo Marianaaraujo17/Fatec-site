@@ -198,6 +198,9 @@ const Menu = () => {
                 <li>
                   <a>Setor de Estágios</a>
                 </li>
+                <li>
+                  <a href="/rematricula">Rematrícula</a>
+                </li>
               </ul>
             </li>
             <li>

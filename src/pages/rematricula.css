@@ -1,0 +1,42 @@
+.rem-titulo {
+    font-size: 40px;
+    color: #005c6e;
+    font-family: "Noto Sans";
+    font-weight: bold;
+  }
+
+.rem-subtitulo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.rem-bold{
+    font-family: Cambria;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.rem-p{
+    font-family: Cambria;
+    font-size: 22px;
+    text-align: center;
+}
+
+.rem-p2{
+    font-family: Cambria;
+    font-size: 22px;
+}
+
+#red{
+    color: red;
+    font-family: Cambria;
+    font-size: 22px;
+}
+
+#cor_rematricula{
+    color: #8B0000;
+  font-size: 22px;
+  font-family: Cambria;
+  text-decoration: none;
+}
