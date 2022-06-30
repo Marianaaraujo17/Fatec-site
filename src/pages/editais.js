@@ -20,7 +20,14 @@ const editais = () => (
       <p className="edit-titulo">EDITAIS</p>
     </Container>
     <Container>
-      <Card>
+      <Card
+        style={{
+          marginRight: "50px",
+          boxShadow: "0 0 0 0",
+          border: "0 none",
+          outline: "0",
+        }}
+      >
         <Row>
           <p id="subtitulo">PROCESSO SELETIVO SIMPLIFICADO</p>
           <p id="espaco">
@@ -72,7 +79,14 @@ const editais = () => (
       </Card>
     </Container>
     <Container>
-      <Card>
+      <Card
+        style={{
+          marginRight: "50px",
+          boxShadow: "0 0 0 0",
+          border: "0 none",
+          outline: "0",
+        }}
+      >
         <Row>
           <p id="subtitulo">EDITAIS INTERNOS</p>
           <p id="espaco">

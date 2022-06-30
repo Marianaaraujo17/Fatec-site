@@ -20,7 +20,15 @@ const concurso = () => (
       <p className="titulo">CONCURSO PÚBLICO</p>
     </Container>
     <Container>
-      <Card className="concurso-card">
+      <Card
+        style={{
+          marginRight: "50px",
+          boxShadow: "0 0 0 0",
+          border: "0 none",
+          outline: "0",
+        }}
+        className="concurso-card"
+      >
         <Row>
           <p id="subtitulo">Docentes</p>
           <p id="espaco">
