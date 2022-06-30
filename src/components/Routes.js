@@ -3,7 +3,6 @@ import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
 import Home from "../pages/Home";
-import Portal from "../pages/Portal";
 import sobre from "../pages/sobre";
 import achados from "../pages/achados-perdidos";
 import biblioteca from "../pages/biblioteca";
@@ -63,7 +62,6 @@ import geral_alunos from "../pages/geral/geral_alunos";
 const Routes = () => (
   <BrowserRouter>
     <Route exact path="/" component={Home} />
-    <Route exact path="/portal" component={Portal} />
     <Route exact path="/sobre" component={sobre} />
     <Route exact path="/achados_perdidos" component={achados} />
     <Route exact path="/biblioteca" component={biblioteca} />

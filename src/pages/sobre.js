@@ -1,9 +1,11 @@
 import React from "react";
 import Footer from "../components/footer";
 import App from "../containers/App";
-import { Card, CardGroup, Container, Row, Col } from "react-bootstrap";
+import { Card, CardGroup, Container, Row, Col, Image } from "react-bootstrap";
 import "./sobre.css";
 import { BiLinkExternal } from "react-icons/bi";
+import ceeteps from "../components/images/ceeteps.jpg";
+import prediothumb from "../components/images/predioThumb.png";
 
 const sobre = () => (
   <App>
@@ -21,6 +23,49 @@ const sobre = () => (
       <Row>
         <Col>
           <p className="sobre-titulo">SOBRE</p>
+        </Col>
+      </Row>
+    </Container>
+
+    <Container style={{ marginBottom: "50px" }}>
+      <Row>
+        <Col md={{ span: 12 }}>
+          <CardGroup>
+            <Card
+              style={{
+                marginRight: "50px",
+                boxShadow: "0 0 0 0",
+                border: "0 none",
+                outline: "0",
+              }}
+            >
+              <Card.Body style={{ justifyContent: "center" }}>
+                <Image thumbnail src={prediothumb} />
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <Card.Title className="sobre-card-titulo">
+                  Faculdade de Tecnologia de São José dos Campos
+                </Card.Title>
+                <Card.Text className="sobre-card-descricao">
+                  A Faculdade de Tecnologia de São José dos Campos foi criada no
+                  dia 2 de março de 2006 conforme o Decreto Nº 50.580 publicado
+                  no Diário Oficial:
+                </Card.Text>
+                <Card.Text className="sobre-card-descricao-citacao">
+                  ❝ DECRETO Nº 50.580 DE 2 DE MARÇO DE 2006 Cria a Faculdade de
+                  Tecnologia de São José dos Campos, como Unidade de Ensino do
+                  Centro Estadual de Educação Tecnológica Paula Souza - CEETEPS
+                  e dá providências correlatas. ❞
+                </Card.Text>
+                <Card.Text className="sobre-card-descricao">
+                  A Fatec é uma Faculdade Pública Estadual e todos os cursos
+                  oferecidos são gratuitos.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </CardGroup>
         </Col>
       </Row>
     </Container>
@@ -56,26 +101,16 @@ const sobre = () => (
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card>
+            <Card
+              style={{
+                marginRight: "50px",
+                boxShadow: "0 0 0 0",
+                border: "0 none",
+                outline: "0",
+              }}
+            >
               <Card.Body>
-                <Card.Title className="sobre-card-titulo">
-                  Faculdade de Tecnologia de São José dos Campos
-                </Card.Title>
-                <Card.Text className="sobre-card-descricao">
-                  A Faculdade de Tecnologia de São José dos Campos foi criada no
-                  dia 2 de março de 2006 conforme o Decreto Nº 50.580 publicado
-                  no Diário Oficial:
-                </Card.Text>
-                <Card.Text className="sobre-card-descricao-citacao">
-                  ❝ DECRETO Nº 50.580 DE 2 DE MARÇO DE 2006 Cria a Faculdade de
-                  Tecnologia de São José dos Campos, como Unidade de Ensino do
-                  Centro Estadual de Educação Tecnológica Paula Souza - CEETEPS
-                  e dá providências correlatas. ❞
-                </Card.Text>
-                <Card.Text className="sobre-card-descricao">
-                  A Fatec é uma Faculdade Pública Estadual e todos os cursos
-                  oferecidos são gratuitos.
-                </Card.Text>
+                <Image thumbnail src={ceeteps} />
               </Card.Body>
             </Card>
           </CardGroup>

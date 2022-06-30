@@ -34,7 +34,7 @@ const secretaria = () => (
             informações referente a vida acadêmica dos alunos.{" "}
           </p>
           <p id="subtitulo">Matrícula Inicial</p>
-          <p>
+          <p id="espaco">
             Recebemos a documentação dos candidatos aprovados via vestibular e
             somos responsáveis pela inclusão dos mesmos no sistema utilizado
             pela Fatec <a id="bold">(SIGA)</a> e por repassar os dados de acesso

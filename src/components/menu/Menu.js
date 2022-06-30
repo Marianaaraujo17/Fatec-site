@@ -1,7 +1,7 @@
 import React from "react";
 import "./Menu.css";
 import logo from "../images/logo.png";
-import predio from "../images/DJI_0672.png";
+import predio from "../images/predio.png";
 import { Col } from "react-bootstrap";
 
 const Menu = () => {
@@ -193,10 +193,10 @@ const Menu = () => {
                   <a href="/passe">Passe Escolar</a>
                 </li>
                 <li>
-                  <a href="/Portal">Portal de Oportunidades</a>
+                  <a>Portal de Oportunidades</a>
                 </li>
                 <li>
-                  <a href="/Portal">Setor de Estágios</a>
+                  <a>Setor de Estágios</a>
                 </li>
               </ul>
             </li>
@@ -253,9 +253,7 @@ const Menu = () => {
           <a id="estilo" href="/secretaria">
             SECRETARIA
           </a>
-          <a id="estilo" href="/portal">
-            ESTÁGIO|VAGAS
-          </a>
+          <a id="estilo">ESTÁGIO|VAGAS</a>
           <a id="estilo" href="/contato">
             CONTATO
           </a>
